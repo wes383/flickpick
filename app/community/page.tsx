@@ -1,0 +1,222 @@
+"use client";
+
+import { useCallback, useEffect, useState } from "react";
+import { ArrowDownUp, ArrowUpDown, Loader2, Trash2 } from "lucide-react";
+import { toast } from "sonner";
+import { Navbar } from "@/components/navbar";
+import { Button } from "@/components/ui/button";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Skeleton } from "@/components/ui/skeleton";
+import { SiteTop10 } from "@/components/site-top10";
+import { PublicListCard } from "@/components/public-list-card";
+import { useI18n } from "@/lib/i18n/context";
+import { toTmdbLanguage } from "@/lib/i18n/dictionaries";
+import { getFingerprint } from "@/lib/fingerprint";
+import {
+  deletePublicList,
+  fetchMoviesBatch,
+  fetchPublicLists,
+} from "@/lib/public-api";
+import type { Movie, PublicList } from "@/types";
+
+export default function CommunityPage() {
+  const { t, language } = useI18n();
+  const [fingerprint, setFingerprint] = useState<string | null>(null);
+  const [sort, setSort] = useState<"recent" | "likes">("recent");
+  const [lists, setLists] = useState<PublicList[]>([]);
+  const [movieMap, setMovieMap] = useState<Record<number, Movie>>({});
+  const [page, setPage] = useState(1);
+  const [hasMore, setHasMore] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [loadingMore, setLoadingMore] = useState(false);
+  const [ownListId, setOwnListId] = useState<string | null>(null);
+  const [tab, setTab] = useState("siteTop");
+
+  useEffect(() => {
+    getFingerprint().then(setFingerprint).catch(() => {});
+  }, []);
+
+  const mergeMovies = useCallback(
+    async (newLists: PublicList[]) => {
+      const knownIds = new Set(Object.keys(movieMap).map(Number));
+      const missing = Array.from(
+        new Set(newLists.flatMap((l) => l.tmdbIds))
+      ).filter((id) => !knownIds.has(id));
+      if (missing.length === 0) return;
+      const movies = await fetchMoviesBatch(missing, toTmdbLanguage(language));
+      setMovieMap((prev) => ({ ...prev, ...movies }));
+    },
+    [movieMap, language]
+  );
+
+  const loadFirst = useCallback(
+    async (sortMode: "recent" | "likes", fp: string) => {
+      setLoading(true);
+      try {
+        const { items, hasMore: more } = await fetchPublicLists(
+          sortMode,
+          1,
+          fp
+        );
+        setLists(items);
+        setHasMore(more);
+        setPage(1);
+        setOwnListId(
+          items.find((l) => l.fingerprint === fp)?.id ?? null
+        );
+        await mergeMovies(items);
+      } catch {
+        toast.error(t.common.error);
+      } finally {
+        setLoading(false);
+      }
+    },
+    [mergeMovies, t]
+  );
+
+  // Load lists when tab switches to allLists, or when sort/fingerprint changes
+  useEffect(() => {
+    if (tab === "allLists" && fingerprint) {
+      loadFirst(sort, fingerprint);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [tab, fingerprint, sort]);
+
+  const handleLoadMore = async () => {
+    if (!fingerprint || loadingMore) return;
+    setLoadingMore(true);
+    try {
+      const nextPage = page + 1;
+      const { items, hasMore: more } = await fetchPublicLists(
+        sort,
+        nextPage,
+        fingerprint
+      );
+      setLists((prev) => [...prev, ...items]);
+      setHasMore(more);
+      setPage(nextPage);
+      await mergeMovies(items);
+    } catch {
+      toast.error(t.common.error);
+    } finally {
+      setLoadingMore(false);
+    }
+  };
+
+  const handleDeleteOwn = async () => {
+    if (!fingerprint) return;
+    try {
+      await deletePublicList(fingerprint);
+      setOwnListId(null);
+      setLists((prev) => prev.filter((l) => l.fingerprint !== fingerprint));
+      toast.success(t.community.deleted);
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message : t.common.error);
+    }
+  };
+
+  return (
+    <div className="min-h-screen flex flex-col">
+      <Navbar />
+      <main className="flex-1 mx-auto w-full max-w-5xl px-6 py-12 pb-32">
+        <div className="flex items-start justify-between gap-4 mb-8">
+          <div className="space-y-2">
+            <h1 className="text-3xl md:text-4xl font-medium tracking-tight">
+              {t.community.title}
+            </h1>
+            <p className="text-muted-foreground">{t.community.subtitle}</p>
+          </div>
+          {ownListId && (
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={handleDeleteOwn}
+              className="shrink-0 mt-1"
+            >
+              <Trash2 className="size-4" />
+              {t.community.deleteMine}
+            </Button>
+          )}
+        </div>
+
+        <Tabs
+          defaultValue="siteTop"
+          onValueChange={setTab}
+          className="space-y-8"
+        >
+          <TabsList variant="slider" className="flex w-full h-auto p-1.5 bg-muted/60">
+            <TabsTrigger value="siteTop" className="flex-1 px-4 py-2 text-sm font-medium">
+              {t.community.tabSiteTop}
+            </TabsTrigger>
+            <TabsTrigger value="allLists" className="flex-1 px-4 py-2 text-sm font-medium">
+              {t.community.tabAllLists}
+            </TabsTrigger>
+          </TabsList>
+
+          <TabsContent value="siteTop" forceMount>
+            <SiteTop10 />
+          </TabsContent>
+
+          <TabsContent value="allLists" forceMount>
+            <div className="space-y-4">
+              <div className="flex items-center justify-between">
+                <h2 className="text-lg font-medium">
+                  {t.community.allListsTitle}
+                </h2>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  onClick={() => setSort((s) => (s === "recent" ? "likes" : "recent"))}
+                >
+                  {sort === "recent" ? (
+                    <ArrowDownUp className="size-3.5" />
+                  ) : (
+                    <ArrowUpDown className="size-3.5" />
+                  )}
+                  {sort === "recent" ? t.community.sortRecent : t.community.sortLikes}
+                </Button>
+              </div>
+
+              {loading ? (
+                <div className="space-y-3">
+                  {Array.from({ length: 3 }).map((_, i) => (
+                    <Skeleton key={i} className="h-40 w-full rounded-xl" />
+                  ))}
+                </div>
+              ) : lists.length === 0 ? (
+                <p className="text-sm text-muted-foreground py-8 text-center">
+                  {t.community.empty}
+                </p>
+              ) : (
+                <div className="space-y-3">
+                  {lists.map((list) => (
+                    <PublicListCard
+                      key={list.id}
+                      list={list}
+                      currentFingerprint={fingerprint || ""}
+                      movieMap={movieMap}
+                    />
+                  ))}
+                  {hasMore && (
+                    <div className="flex justify-center pt-2">
+                      <Button
+                        variant="outline"
+                        onClick={handleLoadMore}
+                        disabled={loadingMore}
+                      >
+                        {loadingMore && (
+                          <Loader2 className="size-4 animate-spin" />
+                        )}
+                        {t.community.loadMore}
+                      </Button>
+                    </div>
+                  )}
+                </div>
+              )}
+            </div>
+          </TabsContent>
+        </Tabs>
+      </main>
+    </div>
+  );
+}

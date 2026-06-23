@@ -1,0 +1,5853 @@
+[
+  {
+    "title": "The Lost Weekend",
+    "tmdb_id": 28580,
+    "year": 1946,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "House of Strangers",
+    "tmdb_id": 20003,
+    "year": 1949,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "The Browning Version",
+    "tmdb_id": 39946,
+    "year": 1951,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Viva Zapata!",
+    "tmdb_id": 1810,
+    "year": 1952,
+    "genres": [
+      "History",
+      "Drama",
+      "Western"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "A Big Family",
+    "tmdb_id": 199248,
+    "year": 1955,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Bad Day at Black Rock",
+    "tmdb_id": 14554,
+    "year": 1955,
+    "genres": [
+      "Thriller",
+      "Mystery",
+      "Western"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Valley of Peace",
+    "tmdb_id": 106765,
+    "year": 1957,
+    "genres": [
+      "War",
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "The Long, Hot Summer",
+    "tmdb_id": 40085,
+    "year": 1958,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Compulsion",
+    "tmdb_id": 35921,
+    "year": 1959,
+    "genres": [
+      "Crime",
+      "Drama",
+      "History",
+      "Thriller"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Goodbye Again",
+    "tmdb_id": 84119,
+    "year": 1961,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "A Taste of Honey",
+    "tmdb_id": 25062,
+    "year": 1962,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Long Day's Journey into Night",
+    "tmdb_id": 43004,
+    "year": 1962,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "This Sporting Life",
+    "tmdb_id": 18774,
+    "year": 1963,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Drama of the Lark",
+    "tmdb_id": 198833,
+    "year": 1964,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Seduced and Abandoned",
+    "tmdb_id": 42790,
+    "year": 1964,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "The Collector",
+    "tmdb_id": 42740,
+    "year": 1965,
+    "genres": [
+      "Thriller"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Hunger",
+    "tmdb_id": 76235,
+    "year": 1966,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Three Days and a Child",
+    "tmdb_id": 115639,
+    "year": 1967,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Z",
+    "tmdb_id": 2721,
+    "year": 1969,
+    "genres": [
+      "Thriller",
+      "Crime",
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "The Pizza Triangle",
+    "tmdb_id": 56366,
+    "year": 1970,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Sacco & Vanzetti",
+    "tmdb_id": 48211,
+    "year": 1971,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "We Won't Grow Old Together",
+    "tmdb_id": 63230,
+    "year": 1972,
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Love and Anarchy",
+    "tmdb_id": 65332,
+    "year": 1973,
+    "genres": [
+      "Romance",
+      "Drama",
+      "Comedy"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "The Last Detail",
+    "tmdb_id": 14886,
+    "year": 1974,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Scent of a Woman",
+    "tmdb_id": 47848,
+    "year": 1975,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Pascual Duarte",
+    "tmdb_id": 98964,
+    "year": 1976,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Elisa, My Life",
+    "tmdb_id": 114337,
+    "year": 1977,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Coming Home",
+    "tmdb_id": 31657,
+    "year": 1978,
+    "genres": [
+      "Drama",
+      "Romance",
+      "War"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Dear Father",
+    "tmdb_id": 65480,
+    "year": 1979,
+    "genres": [
+      "Comedy"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "The China Syndrome",
+    "tmdb_id": 988,
+    "year": 1979,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "A Leap in the Dark",
+    "tmdb_id": 51882,
+    "year": 1980,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Breaker Morant",
+    "tmdb_id": 13783,
+    "year": 1980,
+    "genres": [
+      "Drama",
+      "History",
+      "War"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Chariots of Fire",
+    "tmdb_id": 9443,
+    "year": 1981,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Tragedy of a Ridiculous Man",
+    "tmdb_id": 42144,
+    "year": 1981,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Missing",
+    "tmdb_id": 15600,
+    "year": 1982,
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "The Death of Mario Ricci",
+    "tmdb_id": 133752,
+    "year": 1983,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "The Holy Innocents",
+    "tmdb_id": 75877,
+    "year": 1984,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Kiss of the Spider Woman",
+    "tmdb_id": 11703,
+    "year": 1985,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Evening Dress",
+    "tmdb_id": 3934,
+    "year": 1986,
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Mona Lisa",
+    "tmdb_id": 10002,
+    "year": 1986,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Romance",
+      "Thriller"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Dark Eyes",
+    "tmdb_id": 44658,
+    "year": 1987,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Bird",
+    "tmdb_id": 24679,
+    "year": 1988,
+    "genres": [
+      "Drama",
+      "Music"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Sex, Lies, and Videotape",
+    "tmdb_id": 1412,
+    "year": 1989,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Cyrano de Bergerac",
+    "tmdb_id": 897083,
+    "year": 1990,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Barton Fink",
+    "tmdb_id": 290,
+    "year": 1991,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Thriller"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Jungle Fever",
+    "tmdb_id": 1713,
+    "year": 1991,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "The Player",
+    "tmdb_id": 10403,
+    "year": 1992,
+    "genres": [
+      "Mystery",
+      "Drama",
+      "Thriller",
+      "Comedy"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Naked",
+    "tmdb_id": 21450,
+    "year": 1993,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "To Live",
+    "tmdb_id": 31439,
+    "year": 1994,
+    "genres": [
+      "Drama",
+      "Romance",
+      "War"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Carrington",
+    "tmdb_id": 47018,
+    "year": 1995,
+    "genres": [
+      "History",
+      "Drama",
+      "Romance"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "The Eighth Day",
+    "tmdb_id": 36998,
+    "year": 1996,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "She's So Lovely",
+    "tmdb_id": 38295,
+    "year": 1997,
+    "genres": [
+      "Drama",
+      "Romance",
+      "Thriller"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "My Name Is Joe",
+    "tmdb_id": 8129,
+    "year": 1998,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Humanité",
+    "tmdb_id": 65296,
+    "year": 1999,
+    "genres": [
+      "Drama",
+      "Mystery"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "In the Mood for Love",
+    "tmdb_id": 843,
+    "year": 2000,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "The Piano Teacher",
+    "tmdb_id": 1791,
+    "year": 2001,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "The Son",
+    "tmdb_id": 38128,
+    "year": 2002,
+    "genres": [
+      "Music"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Uzak",
+    "tmdb_id": 31026,
+    "year": 2003,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Nobody Knows",
+    "tmdb_id": 2517,
+    "year": 2004,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "The Three Burials of Melquiades Estrada",
+    "tmdb_id": 8053,
+    "year": 2005,
+    "genres": [
+      "Adventure",
+      "Crime",
+      "Drama",
+      "Mystery",
+      "Western"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Days of Glory",
+    "tmdb_id": 2016,
+    "year": 2006,
+    "genres": [
+      "Drama",
+      "History",
+      "War"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "The Banishment",
+    "tmdb_id": 25142,
+    "year": 2007,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Che",
+    "tmdb_id": 8881,
+    "year": 2008,
+    "genres": [
+      "Drama",
+      "History",
+      "War"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Inglourious Basterds",
+    "tmdb_id": 16869,
+    "year": 2009,
+    "genres": [
+      "Drama",
+      "Thriller",
+      "War"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Biutiful",
+    "tmdb_id": 45958,
+    "year": 2010,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "La nostra vita",
+    "tmdb_id": 46920,
+    "year": 2010,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "The Artist",
+    "tmdb_id": 74643,
+    "year": 2011,
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Romance"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "The Hunt",
+    "tmdb_id": 753468,
+    "year": 2012,
+    "genres": [
+      "Horror",
+      "Science Fiction",
+      "Thriller"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Nebraska",
+    "tmdb_id": 129670,
+    "year": 2013,
+    "genres": [
+      "Drama",
+      "Adventure"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Mr. Turner",
+    "tmdb_id": 245700,
+    "year": 2014,
+    "genres": [
+      "History",
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "The Measure of a Man",
+    "tmdb_id": 329712,
+    "year": 2015,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "The Salesman",
+    "tmdb_id": 903004,
+    "year": 2016,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Fantasy"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "You Were Never Really Here",
+    "tmdb_id": 398181,
+    "year": 2017,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Dogman",
+    "tmdb_id": 483184,
+    "year": 2018,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Pain and Glory",
+    "tmdb_id": 519010,
+    "year": 2019,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Nitram",
+    "tmdb_id": 797457,
+    "year": 2021,
+    "genres": [
+      "Thriller",
+      "Crime",
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Broker",
+    "tmdb_id": 736732,
+    "year": 2022,
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Crime"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Perfect Days",
+    "tmdb_id": 976893,
+    "year": 2023,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Kinds of Kindness",
+    "tmdb_id": 1029955,
+    "year": 2024,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "The Secret Agent",
+    "tmdb_id": 1220564,
+    "year": 2025,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "Pastoral Symphony",
+    "tmdb_id": 117500,
+    "year": 1946,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "The Walls of Malapaga",
+    "tmdb_id": 65718,
+    "year": 1949,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "All About Eve",
+    "tmdb_id": 705,
+    "year": 1951,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Detective Story",
+    "tmdb_id": 20853,
+    "year": 1952,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "A Big Family",
+    "tmdb_id": 199248,
+    "year": 1955,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "I'll Cry Tomorrow",
+    "tmdb_id": 28575,
+    "year": 1956,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Nights of Cabiria",
+    "tmdb_id": 19426,
+    "year": 1957,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Brink of Life",
+    "tmdb_id": 60899,
+    "year": 1958,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Room at the Top",
+    "tmdb_id": 43103,
+    "year": 1959,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Never on Sunday",
+    "tmdb_id": 43039,
+    "year": 1960,
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Seven Days... Seven Nights",
+    "tmdb_id": 83662,
+    "year": 1960,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Two Women",
+    "tmdb_id": 24167,
+    "year": 1961,
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "A Taste of Honey",
+    "tmdb_id": 25062,
+    "year": 1962,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Long Day's Journey into Night",
+    "tmdb_id": 43004,
+    "year": 1962,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "The Conjugal Bed",
+    "tmdb_id": 67378,
+    "year": 1963,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "One Potato, Two Potato",
+    "tmdb_id": 143841,
+    "year": 1964,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "The Pumpkin Eater",
+    "tmdb_id": 69557,
+    "year": 1964,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "The Collector",
+    "tmdb_id": 42740,
+    "year": 1965,
+    "genres": [
+      "Thriller"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Morgan – A Suitable Case for Treatment",
+    "tmdb_id": 42724,
+    "year": 1966,
+    "genres": [
+      "Comedy"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Elvira Madigan",
+    "tmdb_id": 42692,
+    "year": 1967,
+    "genres": [
+      "Drama",
+      "Romance",
+      "History"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Isadora",
+    "tmdb_id": 42626,
+    "year": 1969,
+    "genres": [
+      "Drama",
+      "History",
+      "Music"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Metello",
+    "tmdb_id": 198661,
+    "year": 1970,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "The Panic in Needle Park",
+    "tmdb_id": 27554,
+    "year": 1971,
+    "genres": [
+      "Drama",
+      "Romance",
+      "Crime"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Images",
+    "tmdb_id": 29449,
+    "year": 1972,
+    "genres": [
+      "Thriller",
+      "Mystery",
+      "Horror"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "The Effect of Gamma Rays on Man-in-the-Moon Marigolds",
+    "tmdb_id": 88875,
+    "year": 1973,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Violins at the Ball",
+    "tmdb_id": 198537,
+    "year": 1974,
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Lenny",
+    "tmdb_id": 27094,
+    "year": 1975,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Mrs. Dery Where Are You?",
+    "tmdb_id": 198522,
+    "year": 1976,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "The Inheritance",
+    "tmdb_id": 106224,
+    "year": 1976,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "3 Women",
+    "tmdb_id": 41662,
+    "year": 1977,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "J.A. Martin Photographer",
+    "tmdb_id": 92799,
+    "year": 1977,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "An Unmarried Woman",
+    "tmdb_id": 38731,
+    "year": 1978,
+    "genres": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Violette Nozière",
+    "tmdb_id": 2813,
+    "year": 1978,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Norma Rae",
+    "tmdb_id": 40842,
+    "year": 1979,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Woyzeck",
+    "tmdb_id": 10319,
+    "year": 1979,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "A Leap in the Dark",
+    "tmdb_id": 51882,
+    "year": 1980,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "La terrazza",
+    "tmdb_id": 77334,
+    "year": 1980,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Special Treatment",
+    "tmdb_id": 76711,
+    "year": 1980,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Faktas",
+    "tmdb_id": 198494,
+    "year": 1981,
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Possession",
+    "tmdb_id": 21484,
+    "year": 1981,
+    "genres": [
+      "Horror"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Quartet",
+    "tmdb_id": 67022,
+    "year": 1981,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Another Way",
+    "tmdb_id": 100215,
+    "year": 1982,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "The Story of Piera",
+    "tmdb_id": 53914,
+    "year": 1983,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Cal",
+    "tmdb_id": 42084,
+    "year": 1984,
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Romance"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Mask",
+    "tmdb_id": 11177,
+    "year": 1985,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "The Official Story",
+    "tmdb_id": 29263,
+    "year": 1985,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Love Me Forever or Never",
+    "tmdb_id": 74649,
+    "year": 1986,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Rosa Luxemburg",
+    "tmdb_id": 55562,
+    "year": 1986,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Shy People",
+    "tmdb_id": 69040,
+    "year": 1987,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "A World Apart",
+    "tmdb_id": 41949,
+    "year": 1988,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "A Cry in the Dark",
+    "tmdb_id": 35119,
+    "year": 1989,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Interrogation",
+    "tmdb_id": 18614,
+    "year": 1990,
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Crime"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "The Double Life of Veronique",
+    "tmdb_id": 1600,
+    "year": 1991,
+    "genres": [
+      "Drama",
+      "Fantasy"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "The Best Intentions",
+    "tmdb_id": 41764,
+    "year": 1992,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "The Piano",
+    "tmdb_id": 713,
+    "year": 1993,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "La Reine Margot",
+    "tmdb_id": 10452,
+    "year": 1994,
+    "genres": [
+      "Drama",
+      "History",
+      "Romance"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "The Madness of King George",
+    "tmdb_id": 11318,
+    "year": 1995,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "History"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Secrets & Lies",
+    "tmdb_id": 11159,
+    "year": 1996,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Nil by Mouth",
+    "tmdb_id": 21252,
+    "year": 1997,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "The Dreamlife of Angels",
+    "tmdb_id": 9840,
+    "year": 1998,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Humanité",
+    "tmdb_id": 65296,
+    "year": 1999,
+    "genres": [
+      "Drama",
+      "Mystery"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Rosetta",
+    "tmdb_id": 11489,
+    "year": 1999,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Dancer in the Dark",
+    "tmdb_id": 16,
+    "year": 2000,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "The Piano Teacher",
+    "tmdb_id": 1791,
+    "year": 2001,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "The Man Without a Past",
+    "tmdb_id": 7294,
+    "year": 2002,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "The Barbarian Invasions",
+    "tmdb_id": 11042,
+    "year": 2003,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Clean",
+    "tmdb_id": 39851,
+    "year": 2004,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Free Zone",
+    "tmdb_id": 7483,
+    "year": 2005,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Volver",
+    "tmdb_id": 219,
+    "year": 2006,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Secret Sunshine",
+    "tmdb_id": 2015,
+    "year": 2007,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Linha de Passe",
+    "tmdb_id": 8902,
+    "year": 2008,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Antichrist",
+    "tmdb_id": 17609,
+    "year": 2009,
+    "genres": [
+      "Drama",
+      "Horror",
+      "Thriller"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Certified Copy",
+    "tmdb_id": 48303,
+    "year": 2010,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Melancholia",
+    "tmdb_id": 62215,
+    "year": 2011,
+    "genres": [
+      "Drama",
+      "Science Fiction"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Beyond the Hills",
+    "tmdb_id": 103740,
+    "year": 2012,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "The Past",
+    "tmdb_id": 152780,
+    "year": 2013,
+    "genres": [
+      "Drama",
+      "Mystery"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Maps to the Stars",
+    "tmdb_id": 157851,
+    "year": 2014,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Carol",
+    "tmdb_id": 258480,
+    "year": 2015,
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "My King",
+    "tmdb_id": 329805,
+    "year": 2015,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Ma' Rosa",
+    "tmdb_id": 392790,
+    "year": 2016,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "In the Fade",
+    "tmdb_id": 423646,
+    "year": 2017,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Ayka",
+    "tmdb_id": 519185,
+    "year": 2018,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Little Joe",
+    "tmdb_id": 504585,
+    "year": 2019,
+    "genres": [
+      "Drama",
+      "Science Fiction"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "The Worst Person in the World",
+    "tmdb_id": 660120,
+    "year": 2021,
+    "genres": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Holy Spider",
+    "tmdb_id": 889699,
+    "year": 2022,
+    "genres": [
+      "Thriller",
+      "Drama",
+      "Crime",
+      "Horror"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "About Dry Grasses",
+    "tmdb_id": 665733,
+    "year": 2023,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "Emilia Pérez",
+    "tmdb_id": 974950,
+    "year": 2024,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "The Little Sister",
+    "tmdb_id": 961077,
+    "year": 2025,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "The Battle of the Rails",
+    "tmdb_id": 39142,
+    "year": 1946,
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "The Walls of Malapaga",
+    "tmdb_id": 65718,
+    "year": 1949,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Los Olvidados",
+    "tmdb_id": 800,
+    "year": 1951,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Fanfan la Tulipe",
+    "tmdb_id": 62547,
+    "year": 1952,
+    "genres": [
+      "Romance",
+      "Adventure",
+      "Comedy",
+      "War"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Heroes of Shipka",
+    "tmdb_id": 199253,
+    "year": 1955,
+    "genres": [
+      "War",
+      "Drama",
+      "History"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Rififi",
+    "tmdb_id": 934,
+    "year": 1955,
+    "genres": [
+      "Crime",
+      "Thriller",
+      "Drama"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Othello",
+    "tmdb_id": 46708,
+    "year": 1956,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "A Man Escaped",
+    "tmdb_id": 15244,
+    "year": 1957,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Brink of Life",
+    "tmdb_id": 60899,
+    "year": 1958,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "The 400 Blows",
+    "tmdb_id": 147,
+    "year": 1959,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Chronicle of Flaming Years",
+    "tmdb_id": 198902,
+    "year": 1961,
+    "genres": [
+      "War",
+      "Drama"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Forest of the Hanged",
+    "tmdb_id": 118487,
+    "year": 1965,
+    "genres": [
+      "Drama",
+      "History",
+      "War",
+      "Romance"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Lenin in Poland",
+    "tmdb_id": 198802,
+    "year": 1966,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Ten Thousand Days",
+    "tmdb_id": 198796,
+    "year": 1967,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "All My Compatriots",
+    "tmdb_id": 46659,
+    "year": 1969,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Antonio das Mortes",
+    "tmdb_id": 74349,
+    "year": 1969,
+    "genres": [
+      "Action",
+      "Drama",
+      "Western"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Leo the Last",
+    "tmdb_id": 77333,
+    "year": 1970,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Red Psalm",
+    "tmdb_id": 86732,
+    "year": 1972,
+    "genres": [
+      "Drama",
+      "War",
+      "Music"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Orders",
+    "tmdb_id": 69765,
+    "year": 1975,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Special Section",
+    "tmdb_id": 79921,
+    "year": 1975,
+    "genres": [
+      "Drama",
+      "History",
+      "Thriller"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Down and Dirty",
+    "tmdb_id": 19413,
+    "year": 1976,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Empire of Passion",
+    "tmdb_id": 49096,
+    "year": 1978,
+    "genres": [
+      "Drama",
+      "Romance",
+      "Horror"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Days of Heaven",
+    "tmdb_id": 16642,
+    "year": 1979,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Fitzcarraldo",
+    "tmdb_id": 9343,
+    "year": 1982,
+    "genres": [
+      "Drama",
+      "Adventure"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "L'Argent",
+    "tmdb_id": 42112,
+    "year": 1983,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Nostalghia",
+    "tmdb_id": 1394,
+    "year": 1983,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "A Sunday in the Country",
+    "tmdb_id": 42102,
+    "year": 1984,
+    "genres": [
+      "Drama",
+      "Family"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Rendez-vous",
+    "tmdb_id": 34093,
+    "year": 1985,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "After Hours",
+    "tmdb_id": 10843,
+    "year": 1986,
+    "genres": [
+      "Comedy",
+      "Thriller",
+      "Drama"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Wings of Desire",
+    "tmdb_id": 144,
+    "year": 1987,
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Romance"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Sur",
+    "tmdb_id": 46770,
+    "year": 1988,
+    "genres": [
+      "Drama",
+      "Music"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Time of the Gypsies",
+    "tmdb_id": 20123,
+    "year": 1989,
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Crime",
+      "Fantasy"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Taxi Blues",
+    "tmdb_id": 41842,
+    "year": 1990,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Barton Fink",
+    "tmdb_id": 290,
+    "year": 1991,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Thriller"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "The Player",
+    "tmdb_id": 10403,
+    "year": 1992,
+    "genres": [
+      "Mystery",
+      "Drama",
+      "Thriller",
+      "Comedy"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Naked",
+    "tmdb_id": 21450,
+    "year": 1993,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Caro diario",
+    "tmdb_id": 25403,
+    "year": 1994,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "La Haine",
+    "tmdb_id": 406,
+    "year": 1995,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Fargo",
+    "tmdb_id": 275,
+    "year": 1996,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Happy Together",
+    "tmdb_id": 18329,
+    "year": 1997,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "The General",
+    "tmdb_id": 16885,
+    "year": 1998,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "All About My Mother",
+    "tmdb_id": 99,
+    "year": 1999,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Yi Yi",
+    "tmdb_id": 25538,
+    "year": 2000,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Mulholland Drive",
+    "tmdb_id": 1018,
+    "year": 2001,
+    "genres": [
+      "Thriller",
+      "Drama",
+      "Mystery"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "The Man Who Wasn't There",
+    "tmdb_id": 10778,
+    "year": 2001,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Chi-hwa-seon",
+    "tmdb_id": 18302,
+    "year": 2002,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Punch-Drunk Love",
+    "tmdb_id": 8051,
+    "year": 2002,
+    "genres": [
+      "Romance",
+      "Drama",
+      "Comedy"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Elephant",
+    "tmdb_id": 1807,
+    "year": 2003,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Exils",
+    "tmdb_id": 18497,
+    "year": 2004,
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Music"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Caché",
+    "tmdb_id": 445,
+    "year": 2005,
+    "genres": [
+      "Mystery",
+      "Drama",
+      "Thriller"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Babel",
+    "tmdb_id": 1164,
+    "year": 2006,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "The Diving Bell and the Butterfly",
+    "tmdb_id": 2013,
+    "year": 2007,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Three Monkeys",
+    "tmdb_id": 8905,
+    "year": 2008,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Butchered",
+    "tmdb_id": 64450,
+    "year": 2009,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Horror",
+      "Thriller"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "On Tour",
+    "tmdb_id": 41273,
+    "year": 2010,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Drive",
+    "tmdb_id": 64690,
+    "year": 2011,
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Crime"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Post Tenebras Lux",
+    "tmdb_id": 103689,
+    "year": 2012,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Heli",
+    "tmdb_id": 186935,
+    "year": 2013,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Romance"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Foxcatcher",
+    "tmdb_id": 87492,
+    "year": 2014,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "The Assassin",
+    "tmdb_id": 253450,
+    "year": 2015,
+    "genres": [
+      "Drama",
+      "Action",
+      "History"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Graduation",
+    "tmdb_id": 374458,
+    "year": 2016,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Personal Shopper",
+    "tmdb_id": 340676,
+    "year": 2016,
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "The Beguiled",
+    "tmdb_id": 399019,
+    "year": 2017,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Cold War",
+    "tmdb_id": 440298,
+    "year": 2018,
+    "genres": [
+      "Romance",
+      "Music",
+      "Drama"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Young Ahmed",
+    "tmdb_id": 522373,
+    "year": 2019,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Annette",
+    "tmdb_id": 424277,
+    "year": 2021,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Decision to Leave",
+    "tmdb_id": 705996,
+    "year": 2022,
+    "genres": [
+      "Thriller",
+      "Mystery",
+      "Romance"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "The Taste of Things",
+    "tmdb_id": 964960,
+    "year": 2023,
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Grand Tour",
+    "tmdb_id": 1098709,
+    "year": 2024,
+    "genres": [
+      "Drama",
+      "Adventure"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "The Secret Agent",
+    "tmdb_id": 1220564,
+    "year": 2025,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Lost Boundaries",
+    "tmdb_id": 113237,
+    "year": 1949,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "The Browning Version",
+    "tmdb_id": 39946,
+    "year": 1951,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "Cops and Robbers",
+    "tmdb_id": 45099,
+    "year": 1952,
+    "genres": [
+      "Comedy"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "Young Husbands[A]",
+    "tmdb_id": 199184,
+    "year": 1958,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "Codine",
+    "tmdb_id": 198835,
+    "year": 1963,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "The 317th Platoon",
+    "tmdb_id": 31344,
+    "year": 1965,
+    "genres": [
+      "War",
+      "History",
+      "Drama"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "The Hill",
+    "tmdb_id": 24395,
+    "year": 1965,
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "The Killing Game",
+    "tmdb_id": 78815,
+    "year": 1967,
+    "genres": [
+      "Comedy",
+      "Adventure",
+      "Drama"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "We Still Kill the Old Way",
+    "tmdb_id": 80441,
+    "year": 1967,
+    "genres": [
+      "Mystery",
+      "Drama",
+      "Crime"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "The Sugarland Express",
+    "tmdb_id": 5121,
+    "year": 1974,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Comedy"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "La Terrazza",
+    "tmdb_id": 77334,
+    "year": 1980,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "Mephisto",
+    "tmdb_id": 11911,
+    "year": 1981,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "Moonlighting",
+    "tmdb_id": 42134,
+    "year": 1982,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "Voyage to Cythera",
+    "tmdb_id": 47792,
+    "year": 1984,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "Grosse fatigue",
+    "tmdb_id": 64567,
+    "year": 1994,
+    "genres": [
+      "Comedy"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "A Self Made Hero",
+    "tmdb_id": 48580,
+    "year": 1996,
+    "genres": [
+      "Drama",
+      "War",
+      "Comedy"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "The Ice Storm",
+    "tmdb_id": 68924,
+    "year": 1997,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "Henry Fool",
+    "tmdb_id": 37410,
+    "year": 1998,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "Moloch",
+    "tmdb_id": 436530,
+    "year": 1999,
+    "genres": [],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "Nurse Betty",
+    "tmdb_id": 10480,
+    "year": 2000,
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Thriller"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "No Man's Land",
+    "tmdb_id": 8342,
+    "year": 2001,
+    "genres": [
+      "Action",
+      "History",
+      "War"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "Sweet Sixteen",
+    "tmdb_id": 1376,
+    "year": 2002,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "The Barbarian Invasions",
+    "tmdb_id": 11042,
+    "year": 2003,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "Look at Me",
+    "tmdb_id": 11399,
+    "year": 2004,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "The Three Burials of Melquiades Estrada",
+    "tmdb_id": 8053,
+    "year": 2005,
+    "genres": [
+      "Adventure",
+      "Crime",
+      "Drama",
+      "Mystery",
+      "Western"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "Volver",
+    "tmdb_id": 219,
+    "year": 2006,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "The Edge of Heaven",
+    "tmdb_id": 2014,
+    "year": 2007,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "Lorna's Silence",
+    "tmdb_id": 8899,
+    "year": 2008,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "Spring Fever",
+    "tmdb_id": 117646,
+    "year": 2009,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "Poetry",
+    "tmdb_id": 47909,
+    "year": 2010,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "Footnote",
+    "tmdb_id": 72551,
+    "year": 2011,
+    "genres": [
+      "Comedy"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "Beyond the Hills",
+    "tmdb_id": 103740,
+    "year": 2012,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "A Touch of Sin",
+    "tmdb_id": 187022,
+    "year": 2013,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "Leviathan",
+    "tmdb_id": 127962,
+    "year": 2014,
+    "genres": [
+      "Documentary"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "Chronic",
+    "tmdb_id": 337104,
+    "year": 2015,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "The Salesman",
+    "tmdb_id": 903004,
+    "year": 2016,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Fantasy"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "The Killing of a Sacred Deer",
+    "tmdb_id": 399057,
+    "year": 2017,
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Mystery"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "You Were Never Really Here",
+    "tmdb_id": 398181,
+    "year": 2017,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "3 Faces",
+    "tmdb_id": 517731,
+    "year": 2018,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "Happy as Lazzaro",
+    "tmdb_id": 481432,
+    "year": 2018,
+    "genres": [
+      "Drama",
+      "Fantasy"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "Portrait of a Lady on Fire",
+    "tmdb_id": 531428,
+    "year": 2019,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "Drive My Car",
+    "tmdb_id": 758866,
+    "year": 2021,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "Boy from Heaven",
+    "tmdb_id": 788977,
+    "year": 2022,
+    "genres": [
+      "Thriller"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "Monster",
+    "tmdb_id": 489932,
+    "year": 2023,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "The Substance",
+    "tmdb_id": 933260,
+    "year": 2024,
+    "genres": [
+      "Horror",
+      "Science Fiction",
+      "Thriller"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "Young Mothers",
+    "tmdb_id": 1242015,
+    "year": 2025,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "Alambrista!",
+    "tmdb_id": 86975,
+    "year": 1978,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Northern Lights",
+    "tmdb_id": 226749,
+    "year": 1979,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Adrien's Story",
+    "tmdb_id": 66810,
+    "year": 1980,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Desperado City",
+    "tmdb_id": 264162,
+    "year": 1981,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Half a Life",
+    "tmdb_id": 118136,
+    "year": 1982,
+    "genres": [
+      "Documentary",
+      "History"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "The Princess",
+    "tmdb_id": 273602,
+    "year": 1983,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Stranger Than Paradise",
+    "tmdb_id": 410051,
+    "year": 1984,
+    "genres": [],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Oriana",
+    "tmdb_id": 96419,
+    "year": 1985,
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Romance"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Noir et Blanc",
+    "tmdb_id": 49791,
+    "year": 1986,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Robinson Crusoe in Georgia",
+    "tmdb_id": 149835,
+    "year": 1987,
+    "genres": [
+      "Comedy"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Salaam Bombay!",
+    "tmdb_id": 45129,
+    "year": 1988,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "My 20th Century",
+    "tmdb_id": 49978,
+    "year": 1989,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Science Fiction"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "The Birth",
+    "tmdb_id": 176513,
+    "year": 1989,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Waller's Last Trip",
+    "tmdb_id": 272877,
+    "year": 1989,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Farendj",
+    "tmdb_id": 519003,
+    "year": 1990,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Freeze Die Come to Life",
+    "tmdb_id": 41948,
+    "year": 1990,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Time of the Servants",
+    "tmdb_id": 49171,
+    "year": 1990,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Proof",
+    "tmdb_id": 14904,
+    "year": 1991,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Sam & Me",
+    "tmdb_id": 361198,
+    "year": 1991,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Toto the Hero",
+    "tmdb_id": 56321,
+    "year": 1991,
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Fantasy"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Mac",
+    "tmdb_id": 111883,
+    "year": 1992,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Friends",
+    "tmdb_id": 196924,
+    "year": 1993,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "The Scent of Green Papaya",
+    "tmdb_id": 19552,
+    "year": 1993,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Coming to Terms with the Dead",
+    "tmdb_id": 64573,
+    "year": 1994,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "The Silences of the Palace",
+    "tmdb_id": 44284,
+    "year": 1994,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Denise Calls Up",
+    "tmdb_id": 47449,
+    "year": 1995,
+    "genres": [
+      "Comedy"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "The White Balloon",
+    "tmdb_id": 46785,
+    "year": 1995,
+    "genres": [
+      "Drama",
+      "Family"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Love Serenade",
+    "tmdb_id": 65046,
+    "year": 1996,
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Suzaku",
+    "tmdb_id": 36895,
+    "year": 1997,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "The Life of Jesus",
+    "tmdb_id": 27067,
+    "year": 1997,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Slam",
+    "tmdb_id": 37532,
+    "year": 1998,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Marana Simhasanam",
+    "tmdb_id": 176081,
+    "year": 1999,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "A Time for Drunken Horses",
+    "tmdb_id": 29270,
+    "year": 2000,
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Djomeh",
+    "tmdb_id": 47161,
+    "year": 2000,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Atanarjuat: The Fast Runner",
+    "tmdb_id": 13245,
+    "year": 2001,
+    "genres": [
+      "Fantasy",
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Japón",
+    "tmdb_id": 36211,
+    "year": 2002,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Seaside",
+    "tmdb_id": 125952,
+    "year": 2002,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Osama",
+    "tmdb_id": 14757,
+    "year": 2003,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Reconstruction",
+    "tmdb_id": 29456,
+    "year": 2003,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Bitter Dream",
+    "tmdb_id": 315893,
+    "year": 2004,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Or (My Treasure)",
+    "tmdb_id": 1918,
+    "year": 2004,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Passages",
+    "tmdb_id": 299285,
+    "year": 2004,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Me and You and Everyone We Know",
+    "tmdb_id": 1382,
+    "year": 2005,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "The Forsaken Land",
+    "tmdb_id": 83221,
+    "year": 2005,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "12:08 East of Bucharest",
+    "tmdb_id": 24159,
+    "year": 2006,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Control",
+    "tmdb_id": 5708,
+    "year": 2007,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Jellyfish",
+    "tmdb_id": 6391,
+    "year": 2007,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Everybody Dies but Me",
+    "tmdb_id": 31418,
+    "year": 2008,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Hunger",
+    "tmdb_id": 10360,
+    "year": 2008,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Ajami",
+    "tmdb_id": 24424,
+    "year": 2009,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Samson and Delilah",
+    "tmdb_id": 47075,
+    "year": 2009,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Año Bisiesto",
+    "tmdb_id": 63555,
+    "year": 2010,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Las Acacias",
+    "tmdb_id": 85549,
+    "year": 2011,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Beasts of the Southern Wild",
+    "tmdb_id": 84175,
+    "year": 2012,
+    "genres": [
+      "Drama",
+      "Fantasy"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Ilo Ilo",
+    "tmdb_id": 188598,
+    "year": 2013,
+    "genres": [
+      "Drama",
+      "Family"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Party Girl",
+    "tmdb_id": 266030,
+    "year": 2014,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Land and Shade",
+    "tmdb_id": 336669,
+    "year": 2015,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Divines",
+    "tmdb_id": 393729,
+    "year": 2016,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Montparnasse Bienvenue",
+    "tmdb_id": 452016,
+    "year": 2017,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Girl",
+    "tmdb_id": 515916,
+    "year": 2018,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Our Mothers",
+    "tmdb_id": 596873,
+    "year": 2019,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Murina",
+    "tmdb_id": 838148,
+    "year": 2021,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Plan 75",
+    "tmdb_id": 958487,
+    "year": 2022,
+    "genres": [
+      "Drama",
+      "Science Fiction"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "War Pony",
+    "tmdb_id": 962566,
+    "year": 2022,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Inside the Yellow Cocoon Shell",
+    "tmdb_id": 1114816,
+    "year": 2023,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Armand",
+    "tmdb_id": 1144681,
+    "year": 2024,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Mongrel",
+    "tmdb_id": 1206671,
+    "year": 2024,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "My Father's Shadow",
+    "tmdb_id": 1432605,
+    "year": 2025,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "The President's Cake",
+    "tmdb_id": 1464883,
+    "year": 2025,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Caméra d'Or"
+  },
+  {
+    "title": "Accident",
+    "tmdb_id": 74544,
+    "year": 1967,
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "I Even Met Happy Gypsies",
+    "tmdb_id": 59088,
+    "year": 1967,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Ådalen 31",
+    "tmdb_id": 87208,
+    "year": 1969,
+    "genres": [
+      "Drama",
+      "History",
+      "Romance"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Investigation of a Citizen Above Suspicion",
+    "tmdb_id": 26451,
+    "year": 1970,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Johnny Got His Gun",
+    "tmdb_id": 16328,
+    "year": 1971,
+    "genres": [
+      "War",
+      "Drama"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Taking Off",
+    "tmdb_id": 59881,
+    "year": 1971,
+    "genres": [
+      "Music",
+      "Comedy",
+      "Drama"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Solaris",
+    "tmdb_id": 593,
+    "year": 1972,
+    "genres": [
+      "Drama",
+      "Science Fiction",
+      "Mystery"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "The Mother and the Whore",
+    "tmdb_id": 48693,
+    "year": 1973,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Arabian Nights",
+    "tmdb_id": 47406,
+    "year": 1974,
+    "genres": [
+      "Adventure",
+      "Fantasy"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "The Enigma of Kaspar Hauser",
+    "tmdb_id": 11710,
+    "year": 1975,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Cría Cuervos",
+    "tmdb_id": 51857,
+    "year": 1976,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "The Marquise of O",
+    "tmdb_id": 48205,
+    "year": 1976,
+    "genres": [
+      "History",
+      "Drama"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Bye Bye Monkey",
+    "tmdb_id": 42200,
+    "year": 1978,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "The Shout",
+    "tmdb_id": 48131,
+    "year": 1978,
+    "genres": [
+      "Thriller",
+      "Mystery",
+      "Horror"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Siberiade",
+    "tmdb_id": 68553,
+    "year": 1979,
+    "genres": [
+      "War",
+      "Drama",
+      "History",
+      "Romance"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "My American Uncle",
+    "tmdb_id": 39543,
+    "year": 1980,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Light Years Away",
+    "tmdb_id": 101330,
+    "year": 1981,
+    "genres": [
+      "Drama",
+      "Fantasy"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "The Night of the Shooting Stars",
+    "tmdb_id": 42130,
+    "year": 1982,
+    "genres": [
+      "War",
+      "Drama"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Monty Python's The Meaning of Life",
+    "tmdb_id": 4543,
+    "year": 1983,
+    "genres": [
+      "Comedy"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Diary for My Children",
+    "tmdb_id": 84946,
+    "year": 1984,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Birdy",
+    "tmdb_id": 11296,
+    "year": 1985,
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "The Sacrifice",
+    "tmdb_id": 24657,
+    "year": 1986,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Repentance",
+    "tmdb_id": 96920,
+    "year": 1987,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "A World Apart",
+    "tmdb_id": 41949,
+    "year": 1988,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Cinema Paradiso",
+    "tmdb_id": 11216,
+    "year": 1989,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Too Beautiful for You",
+    "tmdb_id": 48524,
+    "year": 1989,
+    "genres": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "The Sting of Death",
+    "tmdb_id": 128775,
+    "year": 1990,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Tilaï",
+    "tmdb_id": 65482,
+    "year": 1990,
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "La Belle Noiseuse",
+    "tmdb_id": 12627,
+    "year": 1991,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "The Stolen Children",
+    "tmdb_id": 47714,
+    "year": 1992,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Faraway, So Close!",
+    "tmdb_id": 10434,
+    "year": 1993,
+    "genres": [
+      "Drama",
+      "Fantasy"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Burnt by the Sun",
+    "tmdb_id": 50797,
+    "year": 1994,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "To Live",
+    "tmdb_id": 31439,
+    "year": 1994,
+    "genres": [
+      "Drama",
+      "Romance",
+      "War"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Ulysses' Gaze",
+    "tmdb_id": 22549,
+    "year": 1995,
+    "genres": [
+      "Drama",
+      "History",
+      "War"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Breaking the Waves",
+    "tmdb_id": 145,
+    "year": 1996,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "The Sweet Hereafter",
+    "tmdb_id": 10217,
+    "year": 1997,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Life Is Beautiful",
+    "tmdb_id": 637,
+    "year": 1998,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Humanité",
+    "tmdb_id": 65296,
+    "year": 1999,
+    "genres": [
+      "Drama",
+      "Mystery"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Devils on the Doorstep",
+    "tmdb_id": 25838,
+    "year": 2000,
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "The Piano Teacher",
+    "tmdb_id": 1791,
+    "year": 2001,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "The Man Without a Past",
+    "tmdb_id": 7294,
+    "year": 2002,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Uzak",
+    "tmdb_id": 31026,
+    "year": 2003,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Oldboy",
+    "tmdb_id": 670,
+    "year": 2004,
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Mystery",
+      "Action"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Broken Flowers",
+    "tmdb_id": 308,
+    "year": 2005,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Mystery",
+      "Romance"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Flanders",
+    "tmdb_id": 36143,
+    "year": 2006,
+    "genres": [
+      "War",
+      "Drama",
+      "Romance"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "The Mourning Forest",
+    "tmdb_id": 2010,
+    "year": 2007,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Gomorrah",
+    "tmdb_id": 8882,
+    "year": 2008,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "A Prophet",
+    "tmdb_id": 21575,
+    "year": 2009,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Of Gods and Men",
+    "tmdb_id": 46332,
+    "year": 2010,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Once Upon a Time in Anatolia",
+    "tmdb_id": 74879,
+    "year": 2011,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "The Kid with a Bike",
+    "tmdb_id": 63831,
+    "year": 2011,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Reality",
+    "tmdb_id": 103758,
+    "year": 2012,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Inside Llewyn Davis",
+    "tmdb_id": 86829,
+    "year": 2013,
+    "genres": [
+      "Drama",
+      "Music"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "The Wonders",
+    "tmdb_id": 265226,
+    "year": 2014,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Son of Saul",
+    "tmdb_id": 336050,
+    "year": 2015,
+    "genres": [
+      "War",
+      "Drama",
+      "Thriller"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "It's Only the End of the World",
+    "tmdb_id": 338189,
+    "year": 2016,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "BPM (Beats per Minute)",
+    "tmdb_id": 451945,
+    "year": 2017,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "BlacKkKlansman",
+    "tmdb_id": 487558,
+    "year": 2018,
+    "genres": [
+      "Crime",
+      "Comedy",
+      "Drama",
+      "History"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Atlantics",
+    "tmdb_id": 496967,
+    "year": 2019,
+    "genres": [
+      "Drama",
+      "Romance",
+      "Fantasy"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "A Hero",
+    "tmdb_id": 672208,
+    "year": 2021,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Compartment No. 6",
+    "tmdb_id": 588182,
+    "year": 2021,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Close",
+    "tmdb_id": 901563,
+    "year": 2022,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Stars at Noon",
+    "tmdb_id": 603204,
+    "year": 2022,
+    "genres": [
+      "Drama",
+      "Romance",
+      "Crime"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "The Zone of Interest",
+    "tmdb_id": 467244,
+    "year": 2023,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "All We Imagine as Light",
+    "tmdb_id": 927547,
+    "year": 2024,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "Sentimental Value",
+    "tmdb_id": 1124566,
+    "year": 2025,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "The Battle of the Rails",
+    "tmdb_id": 39142,
+    "year": 1946,
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "All About Eve",
+    "tmdb_id": 705,
+    "year": 1951,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "We Are All Murderers",
+    "tmdb_id": 199503,
+    "year": 1952,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Knave of Hearts",
+    "tmdb_id": 163333,
+    "year": 1954,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Lost Continent",
+    "tmdb_id": 199249,
+    "year": 1955,
+    "genres": [
+      "Documentary"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "The Mystery of Picasso",
+    "tmdb_id": 71822,
+    "year": 1956,
+    "genres": [
+      "Documentary"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Kanał",
+    "tmdb_id": 29933,
+    "year": 1957,
+    "genres": [
+      "War",
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "The Seventh Seal",
+    "tmdb_id": 490,
+    "year": 1957,
+    "genres": [
+      "Fantasy",
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Mon Oncle",
+    "tmdb_id": 427,
+    "year": 1958,
+    "genres": [
+      "Comedy"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Stars",
+    "tmdb_id": 199177,
+    "year": 1959,
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "L'Avventura",
+    "tmdb_id": 5165,
+    "year": 1960,
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Romance"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Odd Obsession",
+    "tmdb_id": 43095,
+    "year": 1960,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Mother Joan of the Angels",
+    "tmdb_id": 113458,
+    "year": 1961,
+    "genres": [
+      "Drama",
+      "Horror"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "L'Eclisse",
+    "tmdb_id": 21135,
+    "year": 1962,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "The Trial of Joan of Arc",
+    "tmdb_id": 48764,
+    "year": 1962,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Harakiri",
+    "tmdb_id": 14537,
+    "year": 1963,
+    "genres": [
+      "Action",
+      "Drama",
+      "History"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "The Cassandra Cat",
+    "tmdb_id": 47852,
+    "year": 1963,
+    "genres": [
+      "Comedy",
+      "Fantasy"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Woman in the Dunes",
+    "tmdb_id": 16672,
+    "year": 1964,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Kwaidan",
+    "tmdb_id": 30959,
+    "year": 1965,
+    "genres": [
+      "Horror",
+      "Fantasy",
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Alfie",
+    "tmdb_id": 15598,
+    "year": 1966,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Z",
+    "tmdb_id": 2721,
+    "year": 1969,
+    "genres": [
+      "Thriller",
+      "Crime",
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "The Falcons",
+    "tmdb_id": 198659,
+    "year": 1970,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "The Strawberry Statement",
+    "tmdb_id": 51956,
+    "year": 1970,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Joe Hill",
+    "tmdb_id": 74746,
+    "year": 1971,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Love",
+    "tmdb_id": 42516,
+    "year": 1971,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Slaughterhouse-Five",
+    "tmdb_id": 24559,
+    "year": 1972,
+    "genres": [
+      "Drama",
+      "Science Fiction",
+      "War"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "The Hourglass Sanatorium",
+    "tmdb_id": 45698,
+    "year": 1973,
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Horror"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "The Invitation",
+    "tmdb_id": 109815,
+    "year": 1973,
+    "genres": [
+      "Comedy"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "La prima Angélica",
+    "tmdb_id": 54236,
+    "year": 1974,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "The Constant Factor",
+    "tmdb_id": 198500,
+    "year": 1980,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Kharij",
+    "tmdb_id": 133751,
+    "year": 1983,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Colonel Redl",
+    "tmdb_id": 29471,
+    "year": 1985,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Thérèse",
+    "tmdb_id": 42029,
+    "year": 1986,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Shinran: Path to Purity",
+    "tmdb_id": 198454,
+    "year": 1987,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Yeelen",
+    "tmdb_id": 71329,
+    "year": 1987,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "A Short Film About Killing",
+    "tmdb_id": 10754,
+    "year": 1988,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Jesus of Montreal",
+    "tmdb_id": 4486,
+    "year": 1989,
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Romance"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Hidden Agenda",
+    "tmdb_id": 47869,
+    "year": 1990,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Europa",
+    "tmdb_id": 9065,
+    "year": 1991,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Out of Life",
+    "tmdb_id": 66753,
+    "year": 1991,
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "An Independent Life",
+    "tmdb_id": 196929,
+    "year": 1992,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Dream of Light",
+    "tmdb_id": 94706,
+    "year": 1992,
+    "genres": [
+      "Documentary"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Raining Stones",
+    "tmdb_id": 62463,
+    "year": 1993,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "The Puppetmaster",
+    "tmdb_id": 96712,
+    "year": 1993,
+    "genres": [
+      "Drama",
+      "War",
+      "History"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "La Reine Margot",
+    "tmdb_id": 10452,
+    "year": 1994,
+    "genres": [
+      "Drama",
+      "History",
+      "Romance"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Carrington",
+    "tmdb_id": 47018,
+    "year": 1995,
+    "genres": [
+      "History",
+      "Drama",
+      "Romance"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Don't Forget You're Going to Die",
+    "tmdb_id": 72368,
+    "year": 1995,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Crash",
+    "tmdb_id": 884,
+    "year": 1996,
+    "genres": [
+      "Thriller",
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Western",
+    "tmdb_id": 39968,
+    "year": 1997,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Class Trip",
+    "tmdb_id": 46817,
+    "year": 1998,
+    "genres": [
+      "Mystery",
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "The Celebration",
+    "tmdb_id": 309,
+    "year": 1998,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "The Letter",
+    "tmdb_id": 105448,
+    "year": 1999,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Blackboards",
+    "tmdb_id": 28988,
+    "year": 2000,
+    "genres": [
+      "Drama",
+      "History",
+      "War"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Songs from the Second Floor",
+    "tmdb_id": 34070,
+    "year": 2000,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Divine Intervention",
+    "tmdb_id": 27744,
+    "year": 2002,
+    "genres": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "At Five in the Afternoon",
+    "tmdb_id": 43969,
+    "year": 2003,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "The Ladykillers *",
+    "tmdb_id": 5516,
+    "year": 2004,
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Thriller"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Tropical Malady",
+    "tmdb_id": 11534,
+    "year": 2004,
+    "genres": [
+      "Drama",
+      "Romance",
+      "Fantasy"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Shanghai Dreams",
+    "tmdb_id": 101908,
+    "year": 2005,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Red Road",
+    "tmdb_id": 11705,
+    "year": 2006,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Persepolis",
+    "tmdb_id": 2011,
+    "year": 2007,
+    "genres": [
+      "Animation",
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Silent Light",
+    "tmdb_id": 2012,
+    "year": 2007,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Il divo",
+    "tmdb_id": 8832,
+    "year": 2008,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Fish Tank",
+    "tmdb_id": 24469,
+    "year": 2009,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Thirst",
+    "tmdb_id": 64861,
+    "year": 2009,
+    "genres": [
+      "Drama",
+      "Horror",
+      "Thriller"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "A Screaming Man",
+    "tmdb_id": 57602,
+    "year": 2010,
+    "genres": [
+      "War",
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Polisse",
+    "tmdb_id": 71157,
+    "year": 2011,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "The Angels' Share",
+    "tmdb_id": 103747,
+    "year": 2012,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Like Father, Like Son",
+    "tmdb_id": 177945,
+    "year": 2013,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Goodbye to Language",
+    "tmdb_id": 114982,
+    "year": 2014,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Mommy",
+    "tmdb_id": 265177,
+    "year": 2014,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "The Lobster",
+    "tmdb_id": 254320,
+    "year": 2015,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "American Honey",
+    "tmdb_id": 340485,
+    "year": 2016,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Loveless",
+    "tmdb_id": 1224272,
+    "year": 2017,
+    "genres": [],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Capernaum",
+    "tmdb_id": 517814,
+    "year": 2018,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Bacurau",
+    "tmdb_id": 446159,
+    "year": 2019,
+    "genres": [
+      "Mystery",
+      "Western",
+      "Thriller"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Les Misérables",
+    "tmdb_id": 586863,
+    "year": 2019,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Ahed's Knee",
+    "tmdb_id": 662029,
+    "year": 2021,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Memoria",
+    "tmdb_id": 511819,
+    "year": 2021,
+    "genres": [
+      "Drama",
+      "Science Fiction",
+      "Mystery"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "EO",
+    "tmdb_id": 785398,
+    "year": 2022,
+    "genres": [
+      "Drama",
+      "Adventure"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "The Eight Mountains",
+    "tmdb_id": 803700,
+    "year": 2022,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Fallen Leaves",
+    "tmdb_id": 986280,
+    "year": 2023,
+    "genres": [
+      "Romance",
+      "Comedy",
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Emilia Pérez",
+    "tmdb_id": 974950,
+    "year": 2024,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Sirāt",
+    "tmdb_id": 1151272,
+    "year": 2025,
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Music"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Sound of Falling",
+    "tmdb_id": 1221061,
+    "year": 2025,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Marty",
+    "tmdb_id": 15919,
+    "year": 1955,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "The Silent World",
+    "tmdb_id": 60234,
+    "year": 1956,
+    "genres": [
+      "Documentary",
+      "Adventure"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Friendly Persuasion",
+    "tmdb_id": 43258,
+    "year": 1957,
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "The Cranes Are Flying",
+    "tmdb_id": 38360,
+    "year": 1958,
+    "genres": [
+      "Drama",
+      "Romance",
+      "War"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Black Orpheus",
+    "tmdb_id": 40423,
+    "year": 1959,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "La dolce vita",
+    "tmdb_id": 439,
+    "year": 1960,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "The Long Absence",
+    "tmdb_id": 131836,
+    "year": 1961,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Viridiana",
+    "tmdb_id": 4497,
+    "year": 1961,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "O Pagador de Promessas",
+    "tmdb_id": 59990,
+    "year": 1962,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "The Leopard",
+    "tmdb_id": 1040,
+    "year": 1963,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "The Umbrellas of Cherbourg",
+    "tmdb_id": 5967,
+    "year": 1964,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "The Knack ...and How to Get It",
+    "tmdb_id": 42744,
+    "year": 1965,
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "A Man and a Woman",
+    "tmdb_id": 42726,
+    "year": 1966,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "The Birds, the Bees and the Italians",
+    "tmdb_id": 17974,
+    "year": 1966,
+    "genres": [
+      "Comedy"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Blowup",
+    "tmdb_id": 1052,
+    "year": 1967,
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "If....",
+    "tmdb_id": 14794,
+    "year": 1969,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "M*A*S*H",
+    "tmdb_id": 651,
+    "year": 1970,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "War"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "The Go-Between",
+    "tmdb_id": 36194,
+    "year": 1971,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "The Mattei Affair",
+    "tmdb_id": 62382,
+    "year": 1972,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "The Working Class Goes to Heaven",
+    "tmdb_id": 56231,
+    "year": 1972,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Scarecrow",
+    "tmdb_id": 31587,
+    "year": 1973,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "The Hireling",
+    "tmdb_id": 80382,
+    "year": 1973,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "The Conversation",
+    "tmdb_id": 592,
+    "year": 1974,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Chronicle of the Years of Fire",
+    "tmdb_id": 52555,
+    "year": 1975,
+    "genres": [
+      "Drama",
+      "War",
+      "History"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Taxi Driver",
+    "tmdb_id": 103,
+    "year": 1976,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Padre Padrone",
+    "tmdb_id": 42225,
+    "year": 1977,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "The Tree of Wooden Clogs",
+    "tmdb_id": 31542,
+    "year": 1978,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Apocalypse Now",
+    "tmdb_id": 28,
+    "year": 1979,
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "The Tin Drum",
+    "tmdb_id": 659,
+    "year": 1979,
+    "genres": [
+      "Drama",
+      "History",
+      "War"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "All That Jazz",
+    "tmdb_id": 16858,
+    "year": 1980,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Kagemusha",
+    "tmdb_id": 11953,
+    "year": 1980,
+    "genres": [
+      "Action",
+      "Drama",
+      "History",
+      "War"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Man of Iron",
+    "tmdb_id": 225,
+    "year": 1981,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Missing",
+    "tmdb_id": 15600,
+    "year": 1982,
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Yol",
+    "tmdb_id": 52556,
+    "year": 1982,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "The Ballad of Narayama",
+    "tmdb_id": 42113,
+    "year": 1983,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Paris, Texas",
+    "tmdb_id": 655,
+    "year": 1984,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "When Father Was Away on Business",
+    "tmdb_id": 21042,
+    "year": 1985,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "The Mission",
+    "tmdb_id": 11416,
+    "year": 1986,
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Action",
+      "History"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Under the Sun of Satan",
+    "tmdb_id": 31300,
+    "year": 1987,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Pelle the Conqueror",
+    "tmdb_id": 11174,
+    "year": 1988,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Sex, Lies, and Videotape",
+    "tmdb_id": 1412,
+    "year": 1989,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Wild at Heart",
+    "tmdb_id": 483,
+    "year": 1990,
+    "genres": [
+      "Crime",
+      "Thriller",
+      "Romance"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Barton Fink",
+    "tmdb_id": 290,
+    "year": 1991,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Thriller"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "The Best Intentions",
+    "tmdb_id": 41764,
+    "year": 1992,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Farewell My Concubine",
+    "tmdb_id": 10997,
+    "year": 1993,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "The Piano",
+    "tmdb_id": 713,
+    "year": 1993,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Pulp Fiction",
+    "tmdb_id": 680,
+    "year": 1994,
+    "genres": [
+      "Thriller",
+      "Crime",
+      "Comedy"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Underground",
+    "tmdb_id": 11902,
+    "year": 1995,
+    "genres": [
+      "Drama",
+      "Comedy",
+      "War"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Secrets & Lies",
+    "tmdb_id": 11159,
+    "year": 1996,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Taste of Cherry",
+    "tmdb_id": 30020,
+    "year": 1997,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "The Eel",
+    "tmdb_id": 20506,
+    "year": 1997,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Eternity and a Day",
+    "tmdb_id": 24858,
+    "year": 1998,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Rosetta",
+    "tmdb_id": 11489,
+    "year": 1999,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Dancer in the Dark",
+    "tmdb_id": 16,
+    "year": 2000,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "The Son's Room",
+    "tmdb_id": 11447,
+    "year": 2001,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "The Pianist",
+    "tmdb_id": 423,
+    "year": 2002,
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Elephant",
+    "tmdb_id": 1807,
+    "year": 2003,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Fahrenheit 9/11",
+    "tmdb_id": 1777,
+    "year": 2004,
+    "genres": [
+      "Documentary"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "L'Enfant",
+    "tmdb_id": 11490,
+    "year": 2005,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "The Wind That Shakes the Barley",
+    "tmdb_id": 1116,
+    "year": 2006,
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "4 Months, 3 Weeks and 2 Days",
+    "tmdb_id": 2009,
+    "year": 2007,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "The Class",
+    "tmdb_id": 8841,
+    "year": 2008,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "The White Ribbon",
+    "tmdb_id": 37903,
+    "year": 2009,
+    "genres": [
+      "Drama",
+      "Mystery"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Uncle Boonmee Who Can Recall His Past Lives",
+    "tmdb_id": 38368,
+    "year": 2010,
+    "genres": [
+      "Drama",
+      "Fantasy"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "The Tree of Life",
+    "tmdb_id": 8967,
+    "year": 2011,
+    "genres": [
+      "Drama",
+      "Fantasy"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Amour",
+    "tmdb_id": 86837,
+    "year": 2012,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Blue Is the Warmest Colour",
+    "tmdb_id": 152584,
+    "year": 2013,
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Winter Sleep",
+    "tmdb_id": 265169,
+    "year": 2014,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Dheepan",
+    "tmdb_id": 314402,
+    "year": 2015,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "I, Daniel Blake",
+    "tmdb_id": 374473,
+    "year": 2016,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "The Square",
+    "tmdb_id": 401246,
+    "year": 2017,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Shoplifters",
+    "tmdb_id": 505192,
+    "year": 2018,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "The Image Book",
+    "tmdb_id": 414030,
+    "year": 2018,
+    "genres": [
+      "Documentary",
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Parasite",
+    "tmdb_id": 496243,
+    "year": 2019,
+    "genres": [
+      "Comedy",
+      "Thriller",
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Titane",
+    "tmdb_id": 630240,
+    "year": 2021,
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Horror"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Triangle of Sadness",
+    "tmdb_id": 497828,
+    "year": 2022,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Anatomy of a Fall",
+    "tmdb_id": 915935,
+    "year": 2023,
+    "genres": [
+      "Thriller",
+      "Mystery",
+      "Crime"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Anora",
+    "tmdb_id": 1064213,
+    "year": 2024,
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Romance"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "It Was Just an Accident",
+    "tmdb_id": 1456349,
+    "year": 2025,
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Crime",
+      "Mystery"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Fjord",
+    "tmdb_id": 1401459,
+    "year": 2026,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Palme d'Or"
+  },
+  {
+    "title": "Minotaure",
+    "tmdb_id": 848700,
+    "year": 2026,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "award": "Grand Prix"
+  },
+  {
+    "title": "La Bola Negra",
+    "tmdb_id": 1422041,
+    "year": 2026,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Fatherland",
+    "tmdb_id": 1437696,
+    "year": 2026,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "award": "Best Director"
+  },
+  {
+    "title": "Notre Salut",
+    "tmdb_id": 1318864,
+    "year": 2026,
+    "genres": [
+      "History",
+      "Comedy",
+      "Drama"
+    ],
+    "award": "Best Screenplay"
+  },
+  {
+    "title": "Coward",
+    "tmdb_id": 1437981,
+    "year": 2026,
+    "genres": [
+      "Drama",
+      "Romance",
+      "War"
+    ],
+    "award": "Best Actor"
+  },
+  {
+    "title": "All of a Sudden",
+    "tmdb_id": 1476614,
+    "year": 2026,
+    "genres": [
+      "Drama"
+    ],
+    "award": "Best Actress"
+  },
+  {
+    "title": "The Dreamed Adventure",
+    "tmdb_id": 1013822,
+    "year": 2026,
+    "genres": [
+      "Drama",
+      "Adventure",
+      "Thriller",
+      "Crime",
+      "Romance"
+    ],
+    "award": "Jury Prize"
+  },
+  {
+    "title": "Ben'Imana",
+    "tmdb_id": 1405200,
+    "year": 2026,
+    "genres": [
+      "Drama",
+      "Science Fiction"
+    ],
+    "award": "Caméra d'Or"
+  }
+]
