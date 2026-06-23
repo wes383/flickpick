@@ -30,7 +30,7 @@ export default function CommunityPage() {
   const [loading, setLoading] = useState(false);
   const [loadingMore, setLoadingMore] = useState(false);
   const [ownListId, setOwnListId] = useState<string | null>(null);
-  const [tab, setTab] = useState("siteTop");
+  const [tab, setTab] = useState("allLists");
 
   useEffect(() => {
     getFingerprint().then(setFingerprint).catch(() => {});
@@ -140,22 +140,18 @@ export default function CommunityPage() {
         </div>
 
         <Tabs
-          defaultValue="siteTop"
+          defaultValue="allLists"
           onValueChange={setTab}
           className="space-y-8"
         >
           <TabsList variant="slider" className="flex w-full h-auto p-1.5 bg-muted/60">
-            <TabsTrigger value="siteTop" className="flex-1 px-4 py-2 text-sm font-medium">
-              {t.community.tabSiteTop}
-            </TabsTrigger>
             <TabsTrigger value="allLists" className="flex-1 px-4 py-2 text-sm font-medium">
               {t.community.tabAllLists}
             </TabsTrigger>
+            <TabsTrigger value="siteTop" className="flex-1 px-4 py-2 text-sm font-medium">
+              {t.community.tabSiteTop}
+            </TabsTrigger>
           </TabsList>
-
-          <TabsContent value="siteTop" forceMount>
-            <SiteTop10 />
-          </TabsContent>
 
           <TabsContent value="allLists" forceMount>
             <div className="space-y-4">
@@ -214,6 +210,10 @@ export default function CommunityPage() {
                 </div>
               )}
             </div>
+          </TabsContent>
+
+          <TabsContent value="siteTop" forceMount>
+            <SiteTop10 />
           </TabsContent>
         </Tabs>
       </main>
