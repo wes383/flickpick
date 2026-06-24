@@ -15,6 +15,13 @@ import { isComplete } from "@/lib/tournament";
 import { TOP_N } from "@/types";
 import type { Movie } from "@/types";
 import { TmdbImage } from "@/components/tmdb-image";
+import { useTheme } from "next-themes";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 import { buildTmdbImageUrl } from "@/lib/tmdb-image-fallback";
 
 interface ShareCardProps {
@@ -23,19 +30,27 @@ interface ShareCardProps {
   subtitle: string;
   brand: string;
   posterBase64s?: Record<number, string>;
+  isDark?: boolean;
 }
 
 const ShareCard = forwardRef<HTMLDivElement, ShareCardProps>(
-  function ShareCard({ movies, title, subtitle, brand, posterBase64s }, ref) {
+  function ShareCard({ movies, title, subtitle, brand, posterBase64s, isDark }, ref) {
+    const bgColor = isDark ? "#09090b" : "#ffffff";
+    const textColor = isDark ? "#fafafa" : "#18181b";
+    const mutedColor = isDark ? "#a1a1aa" : "#71717a";
+    const rankColor = isDark ? "#27272a" : "#e4e4e7";
+    const borderColor = isDark ? "#27272a" : "#e4e4e7";
+    const posterBg = isDark ? "#18181b" : "#f4f4f5";
+
     return (
       <div
         ref={ref}
         style={{
           width: 800,
-          background: "#ffffff",
+          background: bgColor,
           padding: "48px 48px 40px",
           fontFamily: "Inter, Noto Sans SC, system-ui, sans-serif",
-          color: "#18181b",
+          color: textColor,
           boxSizing: "border-box",
         }}
       >
@@ -47,7 +62,7 @@ const ShareCard = forwardRef<HTMLDivElement, ShareCardProps>(
               fontWeight: 600,
               margin: 0,
               letterSpacing: "-0.02em",
-              color: "#18181b",
+              color: textColor,
             }}
           >
             {title}
@@ -55,7 +70,7 @@ const ShareCard = forwardRef<HTMLDivElement, ShareCardProps>(
           <p
             style={{
               fontSize: 15,
-              color: "#71717a",
+              color: mutedColor,
               marginTop: 8,
             }}
           >
@@ -85,7 +100,7 @@ const ShareCard = forwardRef<HTMLDivElement, ShareCardProps>(
                 style={{
                   fontSize: 28,
                   fontWeight: 300,
-                  color: "#d4d4d8",
+                  color: rankColor,
                   width: 36,
                   textAlign: "center",
                   fontVariantNumeric: "tabular-nums",
@@ -102,7 +117,7 @@ const ShareCard = forwardRef<HTMLDivElement, ShareCardProps>(
                   height: 84,
                   borderRadius: 6,
                   overflow: "hidden",
-                  background: "#f4f4f5",
+                  background: posterBg,
                   flexShrink: 0,
                 }}
               >
@@ -133,7 +148,7 @@ const ShareCard = forwardRef<HTMLDivElement, ShareCardProps>(
                       padding: 4,
                       fontSize: 9,
                       textAlign: "center",
-                      color: "#a1a1aa",
+                      color: mutedColor,
                     }}
                   >
                     {movie.title}
@@ -149,7 +164,7 @@ const ShareCard = forwardRef<HTMLDivElement, ShareCardProps>(
                     fontWeight: 500,
                     margin: 0,
                     lineHeight: 1.3,
-                    color: "#18181b",
+                    color: textColor,
                     overflow: "hidden",
                     textOverflow: "ellipsis",
                     display: "-webkit-box",
@@ -163,7 +178,7 @@ const ShareCard = forwardRef<HTMLDivElement, ShareCardProps>(
                   <p
                     style={{
                       fontSize: 13,
-                      color: "#a1a1aa",
+                      color: mutedColor,
                       margin: "2px 0 0",
                     }}
                   >
@@ -180,7 +195,7 @@ const ShareCard = forwardRef<HTMLDivElement, ShareCardProps>(
           style={{
             marginTop: 40,
             paddingTop: 20,
-            borderTop: "1px solid #e4e4e7",
+            borderTop: `1px solid ${borderColor}`,
             display: "flex",
             alignItems: "center",
             justifyContent: "space-between",
@@ -189,14 +204,213 @@ const ShareCard = forwardRef<HTMLDivElement, ShareCardProps>(
           <span style={{ 
             fontSize: 14, 
             fontWeight: 500, 
-            color: "#18181b",
+            color: textColor,
             fontFamily: "Plus Jakarta Sans, Inter, system-ui, sans-serif",
           }}>
             {brand}
           </span>
-          <span style={{ fontSize: 13, color: "#a1a1aa" }}>
+          <span style={{ fontSize: 13, color: mutedColor }}>
             flickpick.wesluma.com
           </span>
+        </div>
+      </div>
+    );
+  }
+);
+
+interface VerticalShareCardProps {
+  movies: Movie[];
+  title: string;
+  subtitle: string;
+  brand: string;
+  posterBase64s?: Record<number, string>;
+  isDark?: boolean;
+}
+
+const VerticalShareCard = forwardRef<HTMLDivElement, VerticalShareCardProps>(
+  function VerticalShareCard({ movies, title, subtitle, brand, posterBase64s, isDark }, ref) {
+    const bgColor = isDark ? "#09090b" : "#ffffff";
+    const textColor = isDark ? "#fafafa" : "#18181b";
+    const mutedColor = isDark ? "#a1a1aa" : "#71717a";
+    const rankColor = isDark ? "#27272a" : "#e4e4e7";
+    const borderColor = isDark ? "#27272a" : "#e4e4e7";
+    const posterBg = isDark ? "#18181b" : "#f4f4f5";
+
+    return (
+      <div
+        style={{ position: "relative" }}
+      >
+        <div
+          ref={ref}
+          style={{
+            width: 450,
+            background: bgColor,
+            padding: "40px 32px 32px",
+            fontFamily: "Inter, Noto Sans SC, system-ui, sans-serif",
+            color: textColor,
+            boxSizing: "border-box",
+          }}
+        >
+          {/* Header */}
+          <div style={{ marginBottom: 32 }}>
+            <h1
+              style={{
+                fontSize: 26,
+                fontWeight: 600,
+                margin: 0,
+                letterSpacing: "-0.02em",
+                color: textColor,
+              }}
+            >
+              {title}
+            </h1>
+            <p
+              style={{
+                fontSize: 14,
+                color: mutedColor,
+                marginTop: 8,
+                lineHeight: 1.4,
+              }}
+            >
+              {subtitle}
+            </p>
+          </div>
+
+          {/* Movie list - 1 Column */}
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: 16,
+            }}
+          >
+            {movies.map((movie, index) => (
+              <div
+                key={movie.id}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: 16,
+                }}
+              >
+                {/* Rank */}
+                <div
+                  style={{
+                    fontSize: 28,
+                    fontWeight: 300,
+                    color: rankColor,
+                    width: 36,
+                    textAlign: "center",
+                    fontVariantNumeric: "tabular-nums",
+                    flexShrink: 0,
+                  }}
+                >
+                  {index + 1}
+                </div>
+
+                {/* Poster */}
+                <div
+                  style={{
+                    width: 56,
+                    height: 84,
+                    borderRadius: 6,
+                    overflow: "hidden",
+                    background: posterBg,
+                    flexShrink: 0,
+                  }}
+                >
+                  {movie.posterPath ? (
+                    posterBase64s?.[movie.id] ? (
+                      <img
+                        src={posterBase64s[movie.id]}
+                        alt={movie.title}
+                        style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                      />
+                    ) : (
+                      <TmdbImage
+                        path={movie.posterPath}
+                        size="w200"
+                        alt={movie.title}
+                        style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                        crossOrigin="anonymous"
+                      />
+                    )
+                  ) : (
+                    <div
+                      style={{
+                        width: "100%",
+                        height: "100%",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        padding: 4,
+                        fontSize: 9,
+                        textAlign: "center",
+                        color: mutedColor,
+                      }}
+                    >
+                      {movie.title}
+                    </div>
+                  )}
+                </div>
+
+                {/* Info */}
+                <div style={{ minWidth: 0, flex: 1 }}>
+                  <p
+                    style={{
+                      fontSize: 15,
+                      fontWeight: 500,
+                      margin: 0,
+                      lineHeight: 1.3,
+                      color: textColor,
+                      overflow: "hidden",
+                      textOverflow: "ellipsis",
+                      display: "-webkit-box",
+                      WebkitLineClamp: 2,
+                      WebkitBoxOrient: "vertical",
+                    }}
+                  >
+                    {movie.title}
+                  </p>
+                  {movie.year > 0 && (
+                    <p
+                      style={{
+                        fontSize: 13,
+                        color: mutedColor,
+                        margin: "4px 0 0",
+                      }}
+                    >
+                      {movie.year}
+                    </p>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Footer */}
+          <div
+            style={{
+              marginTop: 32,
+              paddingTop: 16,
+              borderTop: `1px solid ${borderColor}`,
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "space-between",
+            }}
+          >
+            <span style={{ 
+              fontSize: 13, 
+              fontWeight: 500, 
+              color: textColor,
+              fontFamily: "Plus Jakarta Sans, Inter, system-ui, sans-serif",
+            }}>
+              {brand}
+            </span>
+            <span style={{ fontSize: 12, color: mutedColor }}>
+              flickpick.wesluma.com
+            </span>
+          </div>
         </div>
       </div>
     );
@@ -208,6 +422,8 @@ export default function ResultsPage() {
   const router = useRouter();
   const { session, mounted, reset } = useSession();
   const shareCardRef = useRef<HTMLDivElement>(null);
+  const verticalShareCardRef = useRef<HTMLDivElement>(null);
+  const { resolvedTheme } = useTheme();
   const [sharing, setSharing] = useState(false);
   const [uploadOpen, setUploadOpen] = useState(false);
   const [posterBase64s, setPosterBase64s] = useState<Record<number, string>>({});
@@ -228,8 +444,9 @@ export default function ResultsPage() {
 
   const [expandedId, setExpandedId] = useState<number | null>(null);
 
-  const handleShare = useCallback(async () => {
-    if (!shareCardRef.current || sharing) return;
+  const handleShare = useCallback(async (layout: "horizontal" | "vertical") => {
+    const cardRef = layout === "horizontal" ? shareCardRef : verticalShareCardRef;
+    if (!cardRef.current || sharing) return;
     setSharing(true);
     try {
       const newBase64s = { ...posterBase64s };
@@ -261,12 +478,12 @@ export default function ResultsPage() {
         await new Promise((resolve) => setTimeout(resolve, 50));
       }
 
-      const dataUrl = await toPng(shareCardRef.current, {
+      const dataUrl = await toPng(cardRef.current, {
         cacheBust: true,
         pixelRatio: 2,
       });
       const link = document.createElement("a");
-      link.download = "flickpick-top10.png";
+      link.download = `flickpick-top10-${layout}.png`;
       link.href = dataUrl;
       link.click();
       toast.success("Saved");
@@ -406,19 +623,33 @@ export default function ResultsPage() {
         </div>
 
         <div className="mt-8 flex justify-center gap-3">
-          <Button
-            variant="default"
-            size="lg"
-            onClick={handleShare}
-            disabled={sharing}
-          >
-            {sharing ? (
-              <Loader2 className="size-4 animate-spin" />
-            ) : (
-              <Download className="size-4" />
-            )}
-            {sharing ? t.results.shareGenerating : t.results.share}
-          </Button>
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <Button
+                variant="default"
+                size="lg"
+                disabled={sharing}
+                className="gap-1.5"
+              >
+                {sharing ? (
+                  <Loader2 className="size-4 animate-spin" />
+                ) : (
+                  <Download className="size-4" />
+                )}
+                {sharing ? t.results.shareGenerating : t.results.share}
+                <ChevronDown className="size-4 opacity-70 ml-0.5" />
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="center" className="min-w-48 bg-popover text-popover-foreground shadow-md rounded-lg p-1">
+              <DropdownMenuItem onClick={() => handleShare("horizontal")} className="cursor-pointer">
+                {t.results.shareHorizontal}
+              </DropdownMenuItem>
+              <DropdownMenuItem onClick={() => handleShare("vertical")} className="cursor-pointer">
+                {t.results.shareVertical}
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+
           <Button variant="outline" size="lg" onClick={handleRestart}>
             <RotateCcw className="size-4" />
             {t.results.restart}
@@ -454,6 +685,18 @@ export default function ResultsPage() {
             .replace("{films}", String(session.movies.length))}
           brand={t.brand}
           posterBase64s={posterBase64s}
+          isDark={resolvedTheme === "dark"}
+        />
+        <VerticalShareCard
+          ref={verticalShareCardRef}
+          movies={topMovies}
+          title={t.results.shareCardTitle}
+          subtitle={t.results.shareCardSubtitle
+            .replace("{count}", String(session.comparisons.length))
+            .replace("{films}", String(session.movies.length))}
+          brand={t.brand}
+          posterBase64s={posterBase64s}
+          isDark={resolvedTheme === "dark"}
         />
       </div>
     </div>

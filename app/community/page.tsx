@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
-import { ArrowDownUp, ArrowUpDown, Loader2, Trash2 } from "lucide-react";
+import { ArrowDownUp, ArrowUpDown, Loader2 } from "lucide-react";
 import { toast } from "sonner";
 import { Navbar } from "@/components/navbar";
 import { Button } from "@/components/ui/button";
@@ -30,11 +30,42 @@ export default function CommunityPage() {
   const [loading, setLoading] = useState(false);
   const [loadingMore, setLoadingMore] = useState(false);
   const [ownListId, setOwnListId] = useState<string | null>(null);
+  const [ownList, setOwnList] = useState<PublicList | null>(null);
   const [tab, setTab] = useState("allLists");
 
   useEffect(() => {
     getFingerprint().then(setFingerprint).catch(() => {});
   }, []);
+
+  useEffect(() => {
+    if (!fingerprint) return;
+    let cancelled = false;
+    fetch(`/api/public/check?fingerprint=${encodeURIComponent(fingerprint)}`)
+      .then((res) => res.json())
+      .then(async (data) => {
+        if (cancelled) return;
+        if (data.exists && data.list) {
+          setOwnList(data.list);
+          setOwnListId(data.list.id);
+          if (data.list.tmdbIds && data.list.tmdbIds.length > 0) {
+            const langCode = toTmdbLanguage(language);
+            try {
+              const movies = await fetchMoviesBatch(data.list.tmdbIds, langCode);
+              setMovieMap((prev) => ({ ...prev, ...movies }));
+            } catch (e) {
+              console.error(e);
+            }
+          }
+        } else {
+          setOwnList(null);
+          setOwnListId(null);
+        }
+      })
+      .catch(() => {});
+    return () => {
+      cancelled = true;
+    };
+  }, [fingerprint, language]);
 
   const mergeMovies = useCallback(
     async (newLists: PublicList[]) => {
@@ -68,9 +99,6 @@ export default function CommunityPage() {
         setLists(items);
         setHasMore(more);
         setPage(1);
-        setOwnListId(
-          items.find((l) => l.fingerprint === fp)?.id ?? null
-        );
         await mergeMovies(items);
       } catch {
         toast.error(t.common.error);
@@ -115,12 +143,22 @@ export default function CommunityPage() {
     try {
       await deletePublicList(fingerprint);
       setOwnListId(null);
+      setOwnList(null);
       setLists((prev) => prev.filter((l) => l.fingerprint !== fingerprint));
       toast.success(t.community.deleted);
     } catch (err) {
       toast.error(err instanceof Error ? err.message : t.common.error);
     }
   };
+
+  const displayedLists = (() => {
+    const filtered = lists.filter((l) => l.fingerprint !== fingerprint);
+    if (ownList) {
+      const latestOwn = lists.find((l) => l.fingerprint === fingerprint) || ownList;
+      return [latestOwn, ...filtered];
+    }
+    return filtered;
+  })();
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -133,17 +171,6 @@ export default function CommunityPage() {
             </h1>
             <p className="text-muted-foreground">{t.community.subtitle}</p>
           </div>
-          {ownListId && (
-            <Button
-              variant="outline"
-              size="sm"
-              onClick={handleDeleteOwn}
-              className="shrink-0 mt-1"
-            >
-              <Trash2 className="size-4" />
-              {t.community.deleteMine}
-            </Button>
-          )}
         </div>
 
         <Tabs
@@ -186,18 +213,19 @@ export default function CommunityPage() {
                     <Skeleton key={i} className="h-40 w-full rounded-xl" />
                   ))}
                 </div>
-              ) : lists.length === 0 ? (
+              ) : displayedLists.length === 0 ? (
                 <p className="text-sm text-muted-foreground py-8 text-center">
                   {t.community.empty}
                 </p>
               ) : (
                 <div className="space-y-3">
-                  {lists.map((list) => (
+                  {displayedLists.map((list) => (
                     <PublicListCard
                       key={list.id}
                       list={list}
                       currentFingerprint={fingerprint || ""}
                       movieMap={movieMap}
+                      onDeleteOwn={handleDeleteOwn}
                     />
                   ))}
                   {hasMore && (

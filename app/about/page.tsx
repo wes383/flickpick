@@ -86,6 +86,14 @@ export default function AboutPage() {
             >
               Terms
             </a>
+            <a
+              href="https://github.com/wes383/flickpick"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-foreground hover:underline transition-colors"
+            >
+              GitHub
+            </a>
           </div>
         </section>
       </main>
