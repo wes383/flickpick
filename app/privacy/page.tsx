@@ -127,6 +127,14 @@ export default function PrivacyPage() {
                 may log these API requests according to their own privacy policy.
               </li>
               <li>
+                <strong>wsrv.nl</strong> — To improve image
+                loading reliability, we use wsrv.nl as a fallback image proxy
+                service. When images fail to load directly from TMDB, they are
+                automatically loaded through wsrv.nl. During this process,
+                wsrv.nl may receive technical information including your IP
+                address, browser type, and the requested image URL.
+              </li>
+              <li>
                 <strong>Cloudflare Turnstile</strong> — We use Cloudflare
                 Turnstile to protect against automated abuse. During
                 verification, Cloudflare may collect technical information about
