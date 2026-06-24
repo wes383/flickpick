@@ -2,7 +2,7 @@
 
 import { useMemo, useState, useRef, useCallback, forwardRef } from "react";
 import { useRouter } from "next/navigation";
-import { RotateCcw, Trophy, ChevronDown, Share2, Loader2, Upload } from "lucide-react";
+import { RotateCcw, Trophy, ChevronDown, Download, Loader2, Upload } from "lucide-react";
 import { toPng } from "html-to-image";
 import { toast } from "sonner";
 import { Navbar } from "@/components/navbar";
@@ -176,7 +176,12 @@ const ShareCard = forwardRef<HTMLDivElement, ShareCardProps>(
             justifyContent: "space-between",
           }}
         >
-          <span style={{ fontSize: 14, fontWeight: 500, color: "#18181b" }}>
+          <span style={{ 
+            fontSize: 14, 
+            fontWeight: 500, 
+            color: "#18181b",
+            fontFamily: "Plus Jakarta Sans, Inter, system-ui, sans-serif",
+          }}>
             {brand}
           </span>
           <span style={{ fontSize: 13, color: "#a1a1aa" }}>
@@ -369,7 +374,7 @@ export default function ResultsPage() {
             {sharing ? (
               <Loader2 className="size-4 animate-spin" />
             ) : (
-              <Share2 className="size-4" />
+              <Download className="size-4" />
             )}
             {sharing ? t.results.shareGenerating : t.results.share}
           </Button>
