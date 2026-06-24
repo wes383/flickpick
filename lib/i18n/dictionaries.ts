@@ -268,8 +268,8 @@ export const dictionaries = {
 
     // Community page
     community: {
-      title: "Community Top 100",
-      subtitle: "Browse Top 100 lists shared by film lovers. Like your favorites.",
+      title: "Community Top 10",
+      subtitle: "Browse Top 10 lists shared by film lovers. Like your favorites.",
       tabSiteTop: "Site-wide Top 100",
       tabAllLists: "All Lists",
       siteTopTitle: "Site-wide Top 100",
@@ -582,8 +582,8 @@ export const dictionaries = {
 
     // Community page
     community: {
-      title: "社区百强",
-      subtitle: "浏览影迷们分享的百强榜单，为你喜欢的点赞。",
+      title: "社区 Top 10",
+      subtitle: "浏览影迷们分享的 Top 10 榜单，为你喜欢的点赞。",
       tabSiteTop: "全站 Top 100",
       tabAllLists: "全部榜单",
       siteTopTitle: "全站 Top 100",
