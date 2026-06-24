@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getSupabaseServer } from "@/lib/supabase";
 import { verifyTurnstile } from "@/lib/turnstile";
+import { containsSensitiveWord } from "@/lib/sensitive-words";
 import { TOP_N } from "@/types";
 
 interface UploadBody {
@@ -36,6 +37,13 @@ export async function POST(request: NextRequest) {
   const trimmedName = (username || "").trim();
   if (!trimmedName || trimmedName.length > 20) {
     return NextResponse.json({ error: "Invalid username" }, { status: 400 });
+  }
+
+  if (await containsSensitiveWord(trimmedName)) {
+    return NextResponse.json(
+      { error: "SENSITIVE_USERNAME" },
+      { status: 400 }
+    );
   }
 
   if (!Array.isArray(tmdbIds) || tmdbIds.length !== TOP_N) {

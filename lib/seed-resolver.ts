@@ -1,4 +1,5 @@
 import type { Movie, SeedListEntry } from "@/types";
+import { fetchWithRetry } from "@/lib/fetch-retry";
 
 const STAGGER_MS = 25;
 const BATCH_SIZE = 30;
@@ -18,7 +19,7 @@ async function resolveOne(
     try {
       const params = new URLSearchParams({ tmdbId: String(entry.tmdbId) });
       if (language) params.set("lang", language);
-      const res = await fetch(`/api/tmdb/movie?${params}`);
+      const res = await fetchWithRetry(`/api/tmdb/movie?${params}`);
       if (!res.ok) return null;
       const data = await res.json();
       return data.result || null;
@@ -32,7 +33,7 @@ async function resolveOne(
     try {
       const params = new URLSearchParams({ imdb_id: entry.imdbId });
       if (language) params.set("lang", language);
-      const res = await fetch(`/api/tmdb/find?${params}`);
+      const res = await fetchWithRetry(`/api/tmdb/find?${params}`);
       if (!res.ok) return null;
       const data = await res.json();
       return data.result || null;
@@ -46,7 +47,7 @@ async function resolveOne(
     try {
       const params = new URLSearchParams({ query: entry.title });
       params.set("year", String(entry.year));
-      const res = await fetch(`/api/tmdb/search?${params}`);
+      const res = await fetchWithRetry(`/api/tmdb/search?${params}`);
       if (!res.ok) return null;
       const data = await res.json();
       if (data.results && data.results.length > 0) {
@@ -60,7 +61,7 @@ async function resolveOne(
               tmdbId: String(matched.id),
               lang: language,
             });
-            const detailRes = await fetch(
+            const detailRes = await fetchWithRetry(
               `/api/tmdb/movie?${detailParams}`
             );
             if (detailRes.ok) {

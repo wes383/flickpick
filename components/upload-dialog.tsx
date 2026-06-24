@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { AlertTriangle, Loader2, Upload } from "lucide-react";
 import { Turnstile } from "@marsidev/react-turnstile";
 import { toast } from "sonner";
@@ -32,12 +32,16 @@ export function UploadDialog({ open, onOpenChange, tmdbIds }: UploadDialogProps)
   const [turnstileToken, setTurnstileToken] = useState<string | null>(null);
   const [submitting, setSubmitting] = useState(false);
   const [hasExisting, setHasExisting] = useState(false);
+  const [usernameError, setUsernameError] = useState<string | null>(null);
+  const [checkingUsername, setCheckingUsername] = useState(false);
+  const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
     if (!open) return;
     setUsernameState(getUsername() || "");
     setTurnstileToken(null);
     setHasExisting(false);
+    setUsernameError(null);
 
     let cancelled = false;
     (async () => {
@@ -59,11 +63,47 @@ export function UploadDialog({ open, onOpenChange, tmdbIds }: UploadDialogProps)
     };
   }, [open]);
 
+  // Debounced sensitive-word check whenever username changes
+  useEffect(() => {
+    const trimmed = username.trim();
+    if (!trimmed) {
+      setUsernameError(null);
+      setCheckingUsername(false);
+      return;
+    }
+
+    setCheckingUsername(true);
+    if (debounceRef.current) clearTimeout(debounceRef.current);
+    debounceRef.current = setTimeout(async () => {
+      try {
+        const res = await fetch(
+          `/api/public/check-username?username=${encodeURIComponent(trimmed)}`
+        );
+        const data = await res.json();
+        if (data.valid === false && data.reason === "sensitive") {
+          setUsernameError(t.results.uploadDialog.sensitiveError);
+        } else {
+          setUsernameError(null);
+        }
+      } catch {
+        setUsernameError(null);
+      } finally {
+        setCheckingUsername(false);
+      }
+    }, 400);
+
+    return () => {
+      if (debounceRef.current) clearTimeout(debounceRef.current);
+    };
+  }, [username, t.results.uploadDialog.sensitiveError]);
+
   const canSubmit =
     username.trim().length > 0 &&
     username.trim().length <= 20 &&
     turnstileToken !== null &&
-    !submitting;
+    !submitting &&
+    !usernameError &&
+    !checkingUsername;
 
   const handleSubmit = async () => {
     if (!canSubmit || !turnstileToken) return;
@@ -80,7 +120,13 @@ export function UploadDialog({ open, onOpenChange, tmdbIds }: UploadDialogProps)
       toast.success(t.results.uploadDialog.success);
       onOpenChange(false);
     } catch (err) {
-      toast.error(err instanceof Error ? err.message : t.results.uploadDialog.failed);
+      const message = err instanceof Error ? err.message : "";
+      if (message === "SENSITIVE_USERNAME") {
+        toast.error(t.results.uploadDialog.sensitiveError);
+        setUsernameError(t.results.uploadDialog.sensitiveError);
+      } else {
+        toast.error(message || t.results.uploadDialog.failed);
+      }
     } finally {
       setSubmitting(false);
     }
@@ -109,10 +155,19 @@ export function UploadDialog({ open, onOpenChange, tmdbIds }: UploadDialogProps)
             <Input
               id="username"
               value={username}
-              onChange={(e) => setUsernameState(e.target.value.slice(0, 20))}
+              onChange={(e) => {
+                setUsernameState(e.target.value.slice(0, 20));
+                if (usernameError) setUsernameError(null);
+              }}
               placeholder={t.results.uploadDialog.usernamePlaceholder}
               maxLength={20}
             />
+            {usernameError && (
+              <p className="text-sm text-red-500 flex items-center gap-1">
+                <AlertTriangle className="size-3.5 shrink-0" />
+                {usernameError}
+              </p>
+            )}
           </div>
 
           {siteKey && (

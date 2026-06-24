@@ -24,6 +24,7 @@ import {
   getPresetListSize,
 } from "@/lib/preset-lists";
 import { resolveSeedListEntries, deduplicateMovies } from "@/lib/seed-resolver";
+import { fetchWithRetry } from "@/lib/fetch-retry";
 import type { Movie, SeedListEntry } from "@/types";
 import { toast } from "sonner";
 import { cn } from "@/lib/utils";
@@ -342,7 +343,7 @@ export function SeedListSelector({
     setSearching(true);
     try {
       const params = new URLSearchParams({ query });
-      const res = await fetch(`/api/tmdb/search?${params}`);
+      const res = await fetchWithRetry(`/api/tmdb/search?${params}`);
       if (!res.ok) {
         setSearchResults([]);
         return;
@@ -357,7 +358,7 @@ export function SeedListSelector({
                 tmdbId: String(movie.id),
                 lang: tmdbLang,
               });
-              const detailRes = await fetch(
+              const detailRes = await fetchWithRetry(
                 `/api/tmdb/movie?${detailParams}`
               );
               if (detailRes.ok) {
@@ -371,6 +372,7 @@ export function SeedListSelector({
       }
       setSearchResults(results);
     } catch {
+      toast.error(t.common.error);
       setSearchResults([]);
     } finally {
       setSearching(false);

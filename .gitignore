@@ -40,4 +40,14 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-.vercel
+# sensitive data
+data/sensitive_words.txt
+
+# ide
+.claude/
+.cursor/
+.windsurf/
+.idea/
+.vscode/
+.trae/
+.continue/

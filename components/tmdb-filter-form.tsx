@@ -10,6 +10,7 @@ import { Label } from "@/components/ui/label";
 import { useI18n } from "@/lib/i18n/context";
 import { toTmdbLanguage } from "@/lib/i18n/dictionaries";
 import { deduplicateMovies } from "@/lib/seed-resolver";
+import { fetchWithRetry } from "@/lib/fetch-retry";
 import type { Movie } from "@/types";
 import { toast } from "sonner";
 import { cn } from "@/lib/utils";
@@ -89,7 +90,7 @@ export function TmdbFilterForm({
   const [resultsExpanded, setResultsExpanded] = useState(true);
 
   useEffect(() => {
-    fetch(`/api/tmdb/genres?lang=${tmdbLang}`)
+    fetchWithRetry(`/api/tmdb/genres?lang=${tmdbLang}`)
       .then((res) => res.json())
       .then((data) => setGenres(data.genres || []))
       .catch(() => {});
@@ -118,7 +119,7 @@ export function TmdbFilterForm({
         sort: "vote_count",
         count: String(count),
       });
-      const res = await fetch(`/api/tmdb/discover?${params}`);
+      const res = await fetchWithRetry(`/api/tmdb/discover?${params}`);
       if (!res.ok) throw new Error();
       const data = await res.json();
       const deduped = deduplicateMovies(data.results || []);

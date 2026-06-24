@@ -262,6 +262,7 @@ export const dictionaries = {
         success: "Uploaded to community",
         failed: "Upload failed",
         replaceWarning: "You already have an uploaded list. Replacing will delete your current list and reset all likes.",
+        sensitiveError: "This username is not available.",
       },
     },
 
@@ -324,7 +325,7 @@ export const dictionaries = {
       algorithmStep1Desc: "All films are placed as leaves of a complete binary tree. Adjacent films compete head-to-head, and winners advance upward. After N−1 matchups, the root holds your #1 film.",
       algorithmStep2Desc: "The champion is removed, and the path from its leaf to the root is re-evaluated. Each subsequent rank requires at most ⌈log₂N⌉ additional comparisons. The total is (N−1) + (K−1) × ⌈log₂N⌉.",
       algorithmOptimalDesc: "For N=200 and K=10, you need only ~271 matchups — 85% fewer than fully sorting all films. This is the best achievable in the pairwise comparison model without noise.",
-      communityDesc: "After ranking your films, you can publish your Top 10 to the Community board. Browse other users' lists and give a heart to the lists you agree with. The site-wide Top 10 aggregates all uploads into a crowd-sourced global ranking — weighted by rank position so higher-placed films earn more points.",
+      communityDesc: "After ranking your films, you can publish your Top 10 to the Community board. Browse other users' lists and give a heart to the lists you agree with. The site-wide Top 100 aggregates all uploads into a crowd-sourced global ranking — weighted by rank position so higher-placed films earn more points.",
       listImdb: "IMDb Top 250 — updated June 23, 2026",
       listLetterboxd: "Letterboxd Top 500 — updated June 23, 2026",
       listDouban: "Douban Top 250 — updated June 23, 2026",
@@ -575,6 +576,7 @@ export const dictionaries = {
         success: "已上传至社区",
         failed: "上传失败",
         replaceWarning: "你已上传过榜单。替换将删除当前榜单并清零所有点赞。",
+        sensitiveError: "该用户名不可用。",
       },
     },
 
@@ -635,7 +637,7 @@ export const dictionaries = {
       algorithmStep1Desc: "所有电影作为完全二叉树的叶子节点，相邻电影两两对决，胜者向上晋升。经过 N−1 场对决后，根节点即为你的第一名。",
       algorithmStep2Desc: "抽出冠军后，将其叶子置空，沿路径到根重新比较。每确定下一个名次最多需要 ⌈log₂N⌉ 场对决。总比较次数为 (N−1) + (K−1) × ⌈log₂N⌉。",
       algorithmOptimalDesc: "以 N=200、K=10 为例，仅需约 271 场对决，比全排序少 85%。",
-      communityDesc: "完成排名后，你可以将十佳发布到社区榜单。浏览其他用户列表，为喜欢的榜单点赞。全站十佳汇总所有上传，按排名位置加权计算出全局榜单。",
+      communityDesc: "完成排名后，你可以将十佳发布到社区榜单。浏览其他用户列表，为喜欢的榜单点赞。全站 Top 100 汇总所有上传，按排名位置加权计算出全局榜单。",
       listImdb: "IMDb Top 250 — 更新于 2026 年 6 月 23 日",
       listLetterboxd: "Letterboxd Top 500 — 更新于 2026 年 6 月 23 日",
       listDouban: "豆瓣 Top 250 — 更新于 2026 年 6 月 23 日",

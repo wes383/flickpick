@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { useI18n } from "@/lib/i18n/context";
 import { toTmdbLanguage } from "@/lib/i18n/dictionaries";
 import { deduplicateMovies } from "@/lib/seed-resolver";
+import { fetchWithRetry } from "@/lib/fetch-retry";
 import type { Movie } from "@/types";
 import { toast } from "sonner";
 import { TmdbImage } from "@/components/tmdb-image";
@@ -33,7 +34,7 @@ export function MovieSearch({
     if (!query.trim()) return;
     setLoading(true);
     try {
-      const res = await fetch(
+      const res = await fetchWithRetry(
         `/api/tmdb/search?query=${encodeURIComponent(query)}&lang=${tmdbLang}&page=1`
       );
       if (!res.ok) throw new Error();
@@ -54,7 +55,7 @@ export function MovieSearch({
     setLoadingMore(true);
     try {
       const nextPage = page + 1;
-      const res = await fetch(
+      const res = await fetchWithRetry(
         `/api/tmdb/search?query=${encodeURIComponent(query)}&lang=${tmdbLang}&page=${nextPage}`
       );
       if (!res.ok) throw new Error();
