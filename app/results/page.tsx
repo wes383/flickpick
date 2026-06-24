@@ -15,16 +15,18 @@ import { isComplete } from "@/lib/tournament";
 import { TOP_N } from "@/types";
 import type { Movie } from "@/types";
 import { TmdbImage } from "@/components/tmdb-image";
+import { buildTmdbImageUrl } from "@/lib/tmdb-image-fallback";
 
 interface ShareCardProps {
   movies: Movie[];
   title: string;
   subtitle: string;
   brand: string;
+  posterBase64s?: Record<number, string>;
 }
 
 const ShareCard = forwardRef<HTMLDivElement, ShareCardProps>(
-  function ShareCard({ movies, title, subtitle, brand }, ref) {
+  function ShareCard({ movies, title, subtitle, brand, posterBase64s }, ref) {
     return (
       <div
         ref={ref}
@@ -105,13 +107,21 @@ const ShareCard = forwardRef<HTMLDivElement, ShareCardProps>(
                 }}
               >
                 {movie.posterPath ? (
-                  <TmdbImage
-                    path={movie.posterPath}
-                    size="w200"
-                    alt={movie.title}
-                    style={{ width: "100%", height: "100%", objectFit: "cover" }}
-                    crossOrigin="anonymous"
-                  />
+                  posterBase64s?.[movie.id] ? (
+                    <img
+                      src={posterBase64s[movie.id]}
+                      alt={movie.title}
+                      style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                    />
+                  ) : (
+                    <TmdbImage
+                      path={movie.posterPath}
+                      size="w200"
+                      alt={movie.title}
+                      style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                      crossOrigin="anonymous"
+                    />
+                  )
                 ) : (
                   <div
                     style={{
@@ -200,6 +210,7 @@ export default function ResultsPage() {
   const shareCardRef = useRef<HTMLDivElement>(null);
   const [sharing, setSharing] = useState(false);
   const [uploadOpen, setUploadOpen] = useState(false);
+  const [posterBase64s, setPosterBase64s] = useState<Record<number, string>>({});
 
   const topMovies = useMemo(() => {
     if (!session || !session.tournament) return [];
@@ -221,6 +232,35 @@ export default function ResultsPage() {
     if (!shareCardRef.current || sharing) return;
     setSharing(true);
     try {
+      const newBase64s = { ...posterBase64s };
+      let updated = false;
+      await Promise.all(
+        topMovies.map(async (movie) => {
+          if (!movie.posterPath || newBase64s[movie.id]) return;
+          try {
+            const url = buildTmdbImageUrl(movie.posterPath, "w200", true);
+            const response = await fetch(url);
+            if (!response.ok) throw new Error("Failed to fetch");
+            const blob = await response.blob();
+            const base64 = await new Promise<string>((resolve, reject) => {
+              const reader = new FileReader();
+              reader.onloadend = () => resolve(reader.result as string);
+              reader.onerror = reject;
+              reader.readAsDataURL(blob);
+            });
+            newBase64s[movie.id] = base64;
+            updated = true;
+          } catch (e) {
+            console.error("Failed to load poster as base64", movie.title, e);
+          }
+        })
+      );
+      if (updated) {
+        setPosterBase64s(newBase64s);
+        // Wait a tiny tick for state update / re-render
+        await new Promise((resolve) => setTimeout(resolve, 50));
+      }
+
       const dataUrl = await toPng(shareCardRef.current, {
         cacheBust: true,
         pixelRatio: 2,
@@ -230,12 +270,13 @@ export default function ResultsPage() {
       link.href = dataUrl;
       link.click();
       toast.success("Saved");
-    } catch {
+    } catch (e) {
+      console.error(e);
       toast.error("Failed to generate image");
     } finally {
       setSharing(false);
     }
-  }, [sharing]);
+  }, [sharing, topMovies, posterBase64s]);
 
   if (!mounted) return null;
 
@@ -412,6 +453,7 @@ export default function ResultsPage() {
             .replace("{count}", String(session.comparisons.length))
             .replace("{films}", String(session.movies.length))}
           brand={t.brand}
+          posterBase64s={posterBase64s}
         />
       </div>
     </div>
