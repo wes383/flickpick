@@ -127,14 +127,38 @@ export async function tmdbSearch(
   page = 1,
   language?: string
 ): Promise<Movie[]> {
-  const params: Record<string, string> = {
+  // Always fetch with en-US first to get English posters
+  const enParams: Record<string, string> = {
     query,
     page: String(page),
     include_adult: "false",
+    language: "en-US",
   };
-  if (language) params.language = language;
-  const data = await tmdbFetch<{ results: TmdbMovie[] }>("/search/movie", params);
-  return data.results.map(mapTmdbMovie);
+  const enData = await tmdbFetch<{ results: TmdbMovie[] }>("/search/movie", enParams);
+  const enMovies = enData.results.map(mapTmdbMovie);
+
+  // If user language is not English, fetch localized text and merge
+  if (language && language !== "en-US") {
+    try {
+      const localizedParams: Record<string, string> = {
+        query,
+        page: String(page),
+        include_adult: "false",
+        language,
+      };
+      const localizedData = await tmdbFetch<{ results: TmdbMovie[] }>("/search/movie", localizedParams);
+      const localizedMovies = localizedData.results.map(mapTmdbMovie);
+      const localizedMap = new Map(localizedMovies.map((m) => [m.id, m]));
+      return enMovies.map((enMovie) => {
+        const localized = localizedMap.get(enMovie.id);
+        return localized ? { ...localized, posterPath: enMovie.posterPath } : enMovie;
+      });
+    } catch {
+      // Fall back to English if localized fetch fails
+    }
+  }
+
+  return enMovies;
 }
 
 export async function tmdbGetMovie(
@@ -142,12 +166,30 @@ export async function tmdbGetMovie(
   language?: string
 ): Promise<Movie | null> {
   try {
-    const params: Record<string, string> = {
+    // Always fetch with en-US first to get English poster
+    const enParams: Record<string, string> = {
       append_to_response: "credits",
+      language: "en-US",
     };
-    if (language) params.language = language;
-    const data = await tmdbFetch<TmdbMovie>(`/movie/${tmdbId}`, params);
-    return mapTmdbMovie(data);
+    const enData = await tmdbFetch<TmdbMovie>(`/movie/${tmdbId}`, enParams);
+    const enMovie = mapTmdbMovie(enData);
+
+    // If user language is not English, fetch localized text and merge
+    if (language && language !== "en-US") {
+      try {
+        const localizedParams: Record<string, string> = {
+          append_to_response: "credits",
+          language,
+        };
+        const localizedData = await tmdbFetch<TmdbMovie>(`/movie/${tmdbId}`, localizedParams);
+        const localizedMovie = mapTmdbMovie(localizedData);
+        return { ...localizedMovie, posterPath: enMovie.posterPath };
+      } catch {
+        // Fall back to English if localized fetch fails
+      }
+    }
+
+    return enMovie;
   } catch {
     return null;
   }
@@ -168,13 +210,37 @@ export async function tmdbFindByImdbId(
   language?: string
 ): Promise<Movie | null> {
   try {
-    const params: Record<string, string> = { external_source: "imdb_id" };
-    if (language) params.language = language;
-    const data = await tmdbFetch<{
+    // Always fetch with en-US first to get English poster
+    const enParams: Record<string, string> = {
+      external_source: "imdb_id",
+      language: "en-US",
+    };
+    const enData = await tmdbFetch<{
       movie_results: TmdbMovie[];
-    }>("/find/" + imdbId, params);
-    if (data.movie_results.length === 0) return null;
-    return mapTmdbMovie(data.movie_results[0]);
+    }>("/find/" + imdbId, enParams);
+    if (enData.movie_results.length === 0) return null;
+    const enMovie = mapTmdbMovie(enData.movie_results[0]);
+
+    // If user language is not English, fetch localized text and merge
+    if (language && language !== "en-US") {
+      try {
+        const localizedParams: Record<string, string> = {
+          external_source: "imdb_id",
+          language,
+        };
+        const localizedData = await tmdbFetch<{
+          movie_results: TmdbMovie[];
+        }>("/find/" + imdbId, localizedParams);
+        if (localizedData.movie_results.length > 0) {
+          const localizedMovie = mapTmdbMovie(localizedData.movie_results[0]);
+          return { ...localizedMovie, posterPath: enMovie.posterPath };
+        }
+      } catch {
+        // Fall back to English if localized fetch fails
+      }
+    }
+
+    return enMovie;
   } catch {
     return null;
   }
@@ -195,7 +261,7 @@ export interface DiscoverParams {
 export async function tmdbDiscover(params: DiscoverParams): Promise<Movie[]> {
   const count = Math.min(params.count || 20, 500);
   const pagesNeeded = Math.ceil(count / 20);
-  const allMovies: Movie[] = [];
+  const allEnMovies: Movie[] = [];
 
   const sortMap: Record<string, string> = {
     popularity: "popularity.desc",
@@ -205,36 +271,63 @@ export async function tmdbDiscover(params: DiscoverParams): Promise<Movie[]> {
     title: "original_title.asc",
   };
 
-  for (let page = 1; page <= pagesNeeded; page++) {
+  const buildApiParams = (page: number, language?: string): Record<string, string> => {
     const apiParams: Record<string, string> = {
       page: String(page),
       include_adult: "false",
       sort_by: sortMap[params.sort || "vote_count"] || sortMap.vote_count,
     };
-    if (params.uiLanguage) apiParams.language = params.uiLanguage;
-
+    if (language) apiParams.language = language;
     if (params.minVotes) apiParams["vote_count.gte"] = params.minVotes;
     if (params.genres) apiParams.with_genres = params.genres;
     if (params.yearGte) apiParams["primary_release_date.gte"] = `${params.yearGte}-01-01`;
     if (params.yearLte) apiParams["primary_release_date.lte"] = `${params.yearLte}-12-31`;
     if (params.minRating) apiParams["vote_average.gte"] = params.minRating;
     if (params.language) apiParams.with_original_language = params.language;
+    return apiParams;
+  };
 
+  // Fetch all pages with en-US for English posters
+  for (let page = 1; page <= pagesNeeded; page++) {
     const data = await tmdbFetch<{ results: TmdbMovie[] }>(
       "/discover/movie",
-      apiParams
+      buildApiParams(page, "en-US")
     );
-    allMovies.push(...data.results.map(mapTmdbMovie));
+    allEnMovies.push(...data.results.map(mapTmdbMovie));
     if (data.results.length < 20) break;
   }
 
   // Sort by vote_count desc, then dedupe
-  const sorted = allMovies
+  const sorted = allEnMovies
     .sort((a, b) => b.voteCount - a.voteCount)
     .slice(0, count);
-  return Array.from(
+  let result = Array.from(
     new Map(sorted.map((m) => [m.id, m])).values()
   );
+
+  // If UI language is not English, fetch localized text and merge
+  if (params.uiLanguage && params.uiLanguage !== "en-US") {
+    try {
+      const allLocalizedMovies: Movie[] = [];
+      for (let page = 1; page <= pagesNeeded; page++) {
+        const data = await tmdbFetch<{ results: TmdbMovie[] }>(
+          "/discover/movie",
+          buildApiParams(page, params.uiLanguage)
+        );
+        allLocalizedMovies.push(...data.results.map(mapTmdbMovie));
+        if (data.results.length < 20) break;
+      }
+      const localizedMap = new Map(allLocalizedMovies.map((m) => [m.id, m]));
+      result = result.map((enMovie) => {
+        const localized = localizedMap.get(enMovie.id);
+        return localized ? { ...localized, posterPath: enMovie.posterPath } : enMovie;
+      });
+    } catch {
+      // Fall back to English if localized fetch fails
+    }
+  }
+
+  return result;
 }
 
 export async function tmdbGetGenres(language?: string): Promise<TmdbGenre[]> {

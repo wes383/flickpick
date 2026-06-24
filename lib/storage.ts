@@ -121,7 +121,7 @@ function getBrowserLanguage(): Language {
 }
 
 export function getMovieCacheKey(imdbId: string): string {
-  return `flickpick:movie:imdb:${imdbId}`;
+  return `flickpick:movie:v2:imdb:${imdbId}`;
 }
 
 export function cacheMovieByImdb(
