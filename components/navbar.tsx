@@ -23,7 +23,7 @@ export function Navbar() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/50 bg-background/80 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
-        <Link href="/setup" className="text-lg font-semibold tracking-tight">
+        <Link href="/setup" className="text-lg font-semibold tracking-tight font-[family-name:var(--font-plus-jakarta-sans)]">
           {t.brand}
         </Link>
 

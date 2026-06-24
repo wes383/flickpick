@@ -12,7 +12,10 @@ export default function AboutPage() {
       <main className="flex-1 mx-auto w-full max-w-3xl px-6 py-12">
         <div className="mb-4 text-center">
           <h1 className="text-4xl md:text-5xl font-medium tracking-tight">
-            {t.about.title}
+            {t.about.title.replace("FlickPick", "").trim()}{" "}
+            <span className="font-[family-name:var(--font-plus-jakarta-sans)]">
+              FlickPick
+            </span>
           </h1>
           <p className="mt-8 text-left text-muted-foreground leading-relaxed">
             {t.about.intro}
