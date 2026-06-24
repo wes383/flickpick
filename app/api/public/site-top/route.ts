@@ -11,10 +11,10 @@ const INFLIGHT_TTL_MS = 5_000;
 let memo: { at: number; data: SiteTopItem[] } | null = null;
 const MEMO_TTL_MS = 30_000;
 
-async function computeTop10(): Promise<SiteTopItem[]> {
+async function computeTop100(): Promise<SiteTopItem[]> {
   const supabase = getSupabaseServer();
-  // 由 Postgres 聚合下推：传输量从"整张 public_lists"降到"10 行"
-  const { data, error } = await supabase.rpc("get_site_top10");
+  // 由 Postgres 聚合下推：传输量从"整张 public_lists"降到"100 行"
+  const { data, error } = await supabase.rpc("get_site_top100");
   if (error) throw error;
   return ((data ?? []) as Array<{
     tmdb_id: number;
@@ -27,7 +27,7 @@ async function computeTop10(): Promise<SiteTopItem[]> {
   }));
 }
 
-async function getTop10(): Promise<SiteTopItem[]> {
+async function getTop100(): Promise<SiteTopItem[]> {
   const now = Date.now();
 
   if (memo && now - memo.at < MEMO_TTL_MS) {
@@ -38,7 +38,7 @@ async function getTop10(): Promise<SiteTopItem[]> {
     return inflight;
   }
 
-  inflight = computeTop10()
+  inflight = computeTop100()
     .then((data) => {
       memo = { at: Date.now(), data };
       return data;
@@ -53,7 +53,7 @@ async function getTop10(): Promise<SiteTopItem[]> {
 
 export async function GET() {
   try {
-    const items = await getTop10();
+    const items = await getTop100();
     return NextResponse.json(
       { items },
       {

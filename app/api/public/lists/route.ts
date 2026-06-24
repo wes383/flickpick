@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { getSupabaseServer } from "@/lib/supabase";
 import type { PublicList } from "@/types";
 
-const PAGE_SIZE = 20;
+const PAGE_SIZE = 10;
 
 interface ListRow {
   id: string;

@@ -7,7 +7,7 @@ import { Navbar } from "@/components/navbar";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Skeleton } from "@/components/ui/skeleton";
-import { SiteTop10 } from "@/components/site-top10";
+import { SiteTop100 } from "@/components/site-top100";
 import { PublicListCard } from "@/components/public-list-card";
 import { useI18n } from "@/lib/i18n/context";
 import { toTmdbLanguage } from "@/lib/i18n/dictionaries";
@@ -220,7 +220,7 @@ export default function CommunityPage() {
           </TabsContent>
 
           <TabsContent value="siteTop" forceMount>
-            <SiteTop10 />
+            <SiteTop100 />
           </TabsContent>
         </Tabs>
       </main>

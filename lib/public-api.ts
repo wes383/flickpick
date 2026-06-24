@@ -81,7 +81,7 @@ export async function unlikePublicList(
   return res.json();
 }
 
-export async function fetchSiteTop10(): Promise<SiteTopItem[]> {
+export async function fetchSiteTop100(): Promise<SiteTopItem[]> {
   const res = await fetch("/api/public/site-top");
   if (!res.ok) throw new Error("Failed to fetch site top");
   const data = await res.json();

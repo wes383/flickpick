@@ -267,11 +267,11 @@ export const dictionaries = {
 
     // Community page
     community: {
-      title: "Community Top 10",
-      subtitle: "Browse Top 10 lists shared by film lovers. Like your favorites.",
-      tabSiteTop: "Site-wide Top 10",
+      title: "Community Top 100",
+      subtitle: "Browse Top 100 lists shared by film lovers. Like your favorites.",
+      tabSiteTop: "Site-wide Top 100",
       tabAllLists: "All Lists",
-      siteTopTitle: "Site-wide Top 10",
+      siteTopTitle: "Site-wide Top 100",
       siteTopSubtitle: "Aggregated from all uploads, weighted by rank position.",
       allListsTitle: "All Lists",
       sortRecent: "Most Recent",
@@ -285,6 +285,8 @@ export const dictionaries = {
       score: "Score",
       appearances: "in",
       director: "Director",
+      viewCompact: "List",
+      viewCards: "Cards",
     },
 
     // Settings
@@ -578,11 +580,11 @@ export const dictionaries = {
 
     // Community page
     community: {
-      title: "社区十佳",
-      subtitle: "浏览影迷们分享的十佳榜单，为你喜欢的点赞。",
-      tabSiteTop: "全站十佳",
+      title: "社区百强",
+      subtitle: "浏览影迷们分享的百强榜单，为你喜欢的点赞。",
+      tabSiteTop: "全站 Top 100",
       tabAllLists: "全部榜单",
-      siteTopTitle: "全站十佳",
+      siteTopTitle: "全站 Top 100",
       siteTopSubtitle: "汇总所有上传，按排名位置加权计算。",
       allListsTitle: "全部榜单",
       sortRecent: "最新",
@@ -596,6 +598,8 @@ export const dictionaries = {
       score: "得分",
       appearances: "出现在",
       director: "导演",
+      viewCompact: "列表",
+      viewCards: "卡片",
     },
 
     settings: {
