@@ -1,5 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { tmdbGetMovie } from "@/lib/tmdb";
+import { runWithConcurrency } from "@/lib/concurrency";
+
+const BATCH_CONCURRENCY = 10;
 
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams;
@@ -21,11 +24,10 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({});
   }
 
-  const results = await Promise.all(
-    ids.map(async (id) => {
-      const movie = await tmdbGetMovie(id, lang);
-      return [id, movie] as const;
-    })
+  const results = await runWithConcurrency(
+    ids,
+    BATCH_CONCURRENCY,
+    async (id) => [id, await tmdbGetMovie(id, lang)] as const
   );
 
   const map: Record<number, unknown> = {};
@@ -35,5 +37,12 @@ export async function GET(request: NextRequest) {
     }
   }
 
-  return NextResponse.json(map);
+  return NextResponse.json(
+    map,
+    {
+      headers: {
+        "Cache-Control": "public, max-age=3600, s-maxage=3600, stale-while-revalidate=86400",
+      },
+    }
+  );
 }

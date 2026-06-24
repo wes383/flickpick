@@ -43,5 +43,12 @@ export async function GET() {
     .sort((a, b) => b.score - a.score || b.appearanceCount - a.appearanceCount)
     .slice(0, 10);
 
-  return NextResponse.json({ items });
+  return NextResponse.json(
+    { items },
+    {
+      headers: {
+        "Cache-Control": "public, max-age=60, s-maxage=60, stale-while-revalidate=120",
+      },
+    }
+  );
 }

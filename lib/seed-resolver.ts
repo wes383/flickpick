@@ -1,7 +1,7 @@
 import type { Movie, SeedListEntry } from "@/types";
 
 const STAGGER_MS = 25;
-const BATCH_SIZE = 50;
+const BATCH_SIZE = 30;
 const BATCH_DELAY_MIN = 150;
 const BATCH_DELAY_MAX = 200;
 

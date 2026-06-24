@@ -209,6 +209,8 @@ export const dictionaries = {
       added: "Added",
       alreadyAdded: "{count} already added",
       allAdded: "All results are already in your seed list.",
+      loadMore: "Load More",
+      noMore: "No more results.",
       clearAll: "Clear all",
       clearAllConfirm: "Clear all films?",
       clearAllDescription:
@@ -521,6 +523,8 @@ export const dictionaries = {
       added: "已添加",
       alreadyAdded: "已添加 {count} 部",
       allAdded: "结果已全部添加到种子库。",
+      loadMore: "加载更多",
+      noMore: "没有更多结果。",
       clearAll: "清除全部",
       clearAllConfirm: "清除全部电影？",
       clearAllDescription: "将从种子库中移除所有电影，此操作不可撤销。",

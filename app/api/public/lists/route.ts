@@ -63,5 +63,12 @@ export async function GET(request: NextRequest) {
     likedByMe: likedSet.has(row.id),
   }));
 
-  return NextResponse.json({ items, hasMore });
+  return NextResponse.json(
+    { items, hasMore },
+    {
+      headers: {
+        "Cache-Control": "public, max-age=30, s-maxage=30, stale-while-revalidate=60",
+      },
+    }
+  );
 }

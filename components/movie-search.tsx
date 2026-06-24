@@ -23,24 +23,51 @@ export function MovieSearch({
   const tmdbLang = toTmdbLanguage(language);
   const [query, setQuery] = useState("");
   const [loading, setLoading] = useState(false);
+  const [loadingMore, setLoadingMore] = useState(false);
   const [results, setResults] = useState<Movie[]>([]);
+  const [page, setPage] = useState(1);
+  const [hasMore, setHasMore] = useState(false);
 
   const handleSearch = useCallback(async () => {
     if (!query.trim()) return;
     setLoading(true);
     try {
       const res = await fetch(
-        `/api/tmdb/search?query=${encodeURIComponent(query)}&lang=${tmdbLang}`
+        `/api/tmdb/search?query=${encodeURIComponent(query)}&lang=${tmdbLang}&page=1`
       );
       if (!res.ok) throw new Error();
       const data = await res.json();
-      setResults(deduplicateMovies(data.results || []));
+      const list = deduplicateMovies(data.results || []);
+      setResults(list);
+      setPage(1);
+      setHasMore(list.length >= 20);
     } catch {
       toast.error(t.common.error);
     } finally {
       setLoading(false);
     }
   }, [query, t, tmdbLang]);
+
+  const handleLoadMore = useCallback(async () => {
+    if (loadingMore || !hasMore) return;
+    setLoadingMore(true);
+    try {
+      const nextPage = page + 1;
+      const res = await fetch(
+        `/api/tmdb/search?query=${encodeURIComponent(query)}&lang=${tmdbLang}&page=${nextPage}`
+      );
+      if (!res.ok) throw new Error();
+      const data = await res.json();
+      const list = deduplicateMovies(data.results || []);
+      setResults((prev) => deduplicateMovies([...prev, ...list]));
+      setPage(nextPage);
+      setHasMore(list.length >= 20);
+    } catch {
+      toast.error(t.common.error);
+    } finally {
+      setLoadingMore(false);
+    }
+  }, [query, t, tmdbLang, page, loadingMore, hasMore]);
 
   const handleAdd = (movie: Movie) => {
     onAddMovies([movie]);
@@ -116,6 +143,24 @@ export function MovieSearch({
                 </div>
               );
             })}
+          </div>
+          <div className="flex justify-center pt-2">
+            {hasMore ? (
+              <Button
+                variant="outline"
+                onClick={handleLoadMore}
+                disabled={loadingMore}
+              >
+                {loadingMore && <Loader2 className="size-4 animate-spin" />}
+                {t.setup.loadMore}
+              </Button>
+            ) : (
+              results.length >= 20 && (
+                <p className="text-sm text-muted-foreground">
+                  {t.setup.noMore}
+                </p>
+              )
+            )}
           </div>
         </div>
       )}

@@ -1,6 +1,10 @@
 import type { Movie } from "@/types";
+import { runWithConcurrency } from "@/lib/concurrency";
 
 const TMDB_BASE = "https://api.themoviedb.org/3";
+const MAX_CONCURRENT = 10;
+const MAX_RETRIES = 3;
+const BASE_RETRY_MS = 500;
 
 function getApiKey(): string {
   const key = process.env.TMDB_API_KEY;
@@ -8,6 +12,10 @@ function getApiKey(): string {
     throw new Error("TMDB_API_KEY is not configured");
   }
   return key;
+}
+
+function sleep(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 export interface TmdbMovie {
@@ -91,15 +99,27 @@ export async function tmdbFetch<T>(
     url.searchParams.set(key, value);
   }
 
-  const res = await fetch(url, {
-    next: { revalidate: 3600 },
-  });
+  let lastError: Error | null = null;
+  for (let attempt = 0; attempt < MAX_RETRIES; attempt++) {
+    const res = await fetch(url, {
+      next: { revalidate: 3600 },
+    });
 
-  if (!res.ok) {
-    throw new Error(`TMDB API error: ${res.status}`);
+    if (res.status === 429) {
+      const wait = BASE_RETRY_MS * Math.pow(2, attempt);
+      await sleep(wait);
+      lastError = new Error(`TMDB API error: 429`);
+      continue;
+    }
+
+    if (!res.ok) {
+      throw new Error(`TMDB API error: ${res.status}`);
+    }
+
+    return res.json() as Promise<T>;
   }
 
-  return res.json() as Promise<T>;
+  throw lastError ?? new Error("TMDB API error: 429 after retries");
 }
 
 export async function tmdbSearch(
@@ -131,6 +151,16 @@ export async function tmdbGetMovie(
   } catch {
     return null;
   }
+}
+
+export async function tmdbGetMoviesBatch(
+  tmdbIds: number[],
+  language?: string
+): Promise<Movie[]> {
+  const results = await runWithConcurrency(tmdbIds, MAX_CONCURRENT, (id) =>
+    tmdbGetMovie(id, language)
+  );
+  return results.filter((m): m is Movie => m !== null);
 }
 
 export async function tmdbFindByImdbId(

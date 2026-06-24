@@ -43,8 +43,15 @@ export default function CommunityPage() {
         new Set(newLists.flatMap((l) => l.tmdbIds))
       ).filter((id) => !knownIds.has(id));
       if (missing.length === 0) return;
-      const movies = await fetchMoviesBatch(missing, toTmdbLanguage(language));
-      setMovieMap((prev) => ({ ...prev, ...movies }));
+      const langCode = toTmdbLanguage(language);
+      const BATCH_SIZE = 50;
+      const merged: Record<number, Movie> = {};
+      for (let i = 0; i < missing.length; i += BATCH_SIZE) {
+        const slice = missing.slice(i, i + BATCH_SIZE);
+        const movies = await fetchMoviesBatch(slice, langCode);
+        Object.assign(merged, movies);
+      }
+      setMovieMap((prev) => ({ ...prev, ...merged }));
     },
     [movieMap, language]
   );
