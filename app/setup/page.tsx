@@ -164,7 +164,9 @@ export default function SetupPage() {
           <h1 className="text-3xl md:text-4xl font-medium tracking-tight">
             {t.setup.title}
           </h1>
-          <p className="text-muted-foreground">{t.setup.subtitle}</p>
+          <p className="text-muted-foreground">
+            {t.setup.subtitle} {t.setup.sizeRecommendation}
+          </p>
         </div>
 
         <Tabs defaultValue="preset" className="space-y-8">

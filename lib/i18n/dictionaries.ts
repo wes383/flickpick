@@ -55,6 +55,7 @@ export const dictionaries = {
     setup: {
       title: "Build Your Seed List",
       subtitle: "Add films from multiple sources to create your ranking pool.",
+      sizeRecommendation: "Keep your seed list under 300 films for a manageable number of matchups.",
       tabPreset: "Curated Lists",
       tabTmdb: "Filter",
       tabCsv: "CSV Import",
@@ -380,6 +381,7 @@ export const dictionaries = {
     setup: {
       title: "构建你的种子库",
       subtitle: "从多个来源添加电影，创建你的排名池。",
+      sizeRecommendation: "建议种子库数量控制在 300 部以内，以保持合理的对决次数。",
       tabPreset: "经典榜单",
       tabTmdb: "筛选",
       tabCsv: "CSV 导入",
