@@ -68,7 +68,10 @@ export function SiteTop100() {
   }, [items.length]);
 
   useEffect(() => {
-    if (!hasMore) return;
+    // 等数据加载完成、sentinel 真正渲染后再挂载观察器；
+    // 否则 hasMore 首次变 true 时 loading 仍为 true，sentinel 尚未渲染，
+    // ref 为空导致观察器漏挂，后续 loading 结束后也不会重新挂载。
+    if (!hasMore || loading) return;
     const node = sentinelRef.current;
     if (!node) return;
     const io = new IntersectionObserver(
@@ -81,7 +84,7 @@ export function SiteTop100() {
     );
     io.observe(node);
     return () => io.disconnect();
-  }, [hasMore, loadMore]);
+  }, [hasMore, loadMore, loading]);
 
   const toggleExpand = (tmdbId: number) => {
     setExpandedId((prev) => (prev === tmdbId ? null : tmdbId));
