@@ -13,6 +13,7 @@ import { resolveSeedListEntries, deduplicateMovies } from "@/lib/seed-resolver";
 import type { Movie, SeedListEntry } from "@/types";
 import { toast } from "sonner";
 import { cn } from "@/lib/utils";
+import { TmdbImage } from "@/components/tmdb-image";
 
 interface CsvImporterProps {
   onAddMovies: (movies: Movie[]) => void;
@@ -435,8 +436,9 @@ export function CsvImporter({
                       <div key={movie.id} className="group/poster relative space-y-1.5">
                         <div className="aspect-[2/3] overflow-hidden rounded-md bg-muted relative">
                           {movie.posterPath ? (
-                            <img
-                              src={`https://image.tmdb.org/t/p/w200${movie.posterPath}`}
+                            <TmdbImage
+                              path={movie.posterPath}
+                              size="w200"
                               alt={movie.title}
                               loading="lazy"
                               className="h-full w-full object-cover"
@@ -560,8 +562,9 @@ export function CsvImporter({
                                     className="flex items-center gap-3 rounded-md p-1.5 hover:bg-muted/30 transition-colors"
                                   >
                                     {movie.posterPath ? (
-                                      <img
-                                        src={`https://image.tmdb.org/t/p/w92${movie.posterPath}`}
+                                      <TmdbImage
+                                        path={movie.posterPath}
+                                        size="w92"
                                         alt={movie.title}
                                         className="h-10 w-7 shrink-0 rounded object-cover"
                                       />

@@ -2,8 +2,16 @@
 
 import Image from "next/image";
 import { Star } from "lucide-react";
+import { useState, useEffect } from "react";
 import type { Movie } from "@/types";
 import { cn } from "@/lib/utils";
+import {
+  buildTmdbImageUrl,
+  reportImageFailure,
+  reportImageSuccess,
+  shouldUseTmdbProxy,
+  subscribeToProxyStatus,
+} from "@/lib/tmdb-image-fallback";
 
 interface MovieCardProps {
   movie: Movie;
@@ -27,6 +35,35 @@ export function MovieCard({
   showOverview = false,
 }: MovieCardProps) {
   const classes = sizeClasses[size];
+  const [useLocalProxy, setUseLocalProxy] = useState(false);
+  const [globalProxyEnabled, setGlobalProxyEnabled] = useState(shouldUseTmdbProxy());
+
+  useEffect(() => {
+    const unsubscribe = subscribeToProxyStatus(() => {
+      setGlobalProxyEnabled(shouldUseTmdbProxy());
+    });
+    return () => {
+      unsubscribe();
+    };
+  }, []);
+
+  const useProxy = globalProxyEnabled || useLocalProxy;
+  const imageUrl = movie.posterPath
+    ? buildTmdbImageUrl(movie.posterPath, "w500", useProxy)
+    : "";
+
+  const handleError = () => {
+    if (!useLocalProxy) {
+      setUseLocalProxy(true);
+      reportImageFailure();
+    }
+  };
+
+  const handleLoad = () => {
+    if (!useProxy && movie.posterPath) {
+      reportImageSuccess();
+    }
+  };
 
   return (
     <div
@@ -46,11 +83,13 @@ export function MovieCard({
       >
         {movie.posterPath ? (
           <Image
-            src={`https://image.tmdb.org/t/p/w500${movie.posterPath}`}
+            src={imageUrl}
             alt={movie.title}
             fill
             sizes="(max-width: 768px) 50vw, 200px"
             className="object-cover"
+            onError={handleError}
+            onLoad={handleLoad}
           />
         ) : (
           <div className="flex h-full w-full items-center justify-center bg-muted text-muted-foreground text-xs p-2 text-center">

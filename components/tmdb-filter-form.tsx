@@ -13,6 +13,7 @@ import { deduplicateMovies } from "@/lib/seed-resolver";
 import type { Movie } from "@/types";
 import { toast } from "sonner";
 import { cn } from "@/lib/utils";
+import { TmdbImage } from "@/components/tmdb-image";
 
 interface TmdbFilterFormProps {
   onAddMovies: (movies: Movie[]) => void;
@@ -298,8 +299,9 @@ export function TmdbFilterForm({
                   <div key={movie.id} className="group/poster relative space-y-1.5">
                     <div className="aspect-[2/3] overflow-hidden rounded-md bg-muted relative">
                       {movie.posterPath ? (
-                        <img
-                          src={`https://image.tmdb.org/t/p/w200${movie.posterPath}`}
+                        <TmdbImage
+                          path={movie.posterPath}
+                          size="w200"
                           alt={movie.title}
                           loading="lazy"
                           className="h-full w-full object-cover"

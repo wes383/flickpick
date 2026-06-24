@@ -3,6 +3,7 @@
 import { useI18n } from "@/lib/i18n/context";
 import type { Movie } from "@/types";
 import { cn } from "@/lib/utils";
+import { TmdbImage } from "@/components/tmdb-image";
 
 interface MovieComparisonProps {
   movieA: Movie;
@@ -131,8 +132,9 @@ function ComparisonCard({
         )}
       >
         {movie.posterPath ? (
-          <img
-            src={`https://image.tmdb.org/t/p/w500${movie.posterPath}`}
+          <TmdbImage
+            path={movie.posterPath}
+            size="w500"
             alt={movie.title}
             className="h-full w-auto max-w-full object-contain"
             loading="eager"

@@ -8,6 +8,7 @@ import { toTmdbLanguage } from "@/lib/i18n/dictionaries";
 import { cn } from "@/lib/utils";
 import { fetchSiteTop100, fetchMoviesBatch } from "@/lib/public-api";
 import type { Movie, SiteTopItem } from "@/types";
+import { TmdbImage } from "@/components/tmdb-image";
 
 const PAGE_SIZE = 20;
 const BATCH_SIZE = 50; // /api/tmdb/batch 单次最多 50 个
@@ -223,9 +224,10 @@ function CompactList({
                 className="h-12 w-8 flex-shrink-0 overflow-hidden rounded bg-muted"
               >
                 {movie?.posterPath ? (
-                  <img
-                    src={`https://image.tmdb.org/t/p/w185${movie.posterPath}`}
-                    alt={movie?.title}
+                  <TmdbImage
+                    path={movie.posterPath}
+                    size="w185"
+                    alt={movie.title}
                     loading="lazy"
                     className="h-full w-full object-cover"
                   />
@@ -333,9 +335,10 @@ function CardList({
                 className="h-28 w-20 flex-shrink-0 overflow-hidden rounded-lg bg-muted shadow-sm md:h-36 md:w-24"
               >
                 {movie?.posterPath ? (
-                  <img
-                    src={`https://image.tmdb.org/t/p/w300${movie.posterPath}`}
-                    alt={movie?.title}
+                  <TmdbImage
+                    path={movie.posterPath}
+                    size="w300"
+                    alt={movie.title}
                     loading="lazy"
                     className="h-full w-full object-cover"
                   />

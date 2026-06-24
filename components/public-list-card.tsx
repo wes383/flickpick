@@ -9,6 +9,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { useI18n } from "@/lib/i18n/context";
 import { likePublicList, unlikePublicList } from "@/lib/public-api";
 import type { Movie, PublicList } from "@/types";
+import { TmdbImage } from "@/components/tmdb-image";
 
 interface PublicListCardProps {
   list: PublicList;
@@ -101,8 +102,9 @@ export function PublicListCard({
               <div className="relative aspect-[2/3] rounded-md overflow-hidden bg-muted">
                 {movie ? (
                   movie.posterPath ? (
-                    <img
-                      src={`https://image.tmdb.org/t/p/w200${movie.posterPath}`}
+                    <TmdbImage
+                      path={movie.posterPath}
+                      size="w200"
                       alt={movie.title}
                       className="h-full w-full object-cover"
                       loading="lazy"

@@ -14,6 +14,7 @@ import { cn } from "@/lib/utils";
 import { isComplete } from "@/lib/tournament";
 import { TOP_N } from "@/types";
 import type { Movie } from "@/types";
+import { TmdbImage } from "@/components/tmdb-image";
 
 interface ShareCardProps {
   movies: Movie[];
@@ -104,8 +105,9 @@ const ShareCard = forwardRef<HTMLDivElement, ShareCardProps>(
                 }}
               >
                 {movie.posterPath ? (
-                  <img
-                    src={`https://image.tmdb.org/t/p/w200${movie.posterPath}`}
+                  <TmdbImage
+                    path={movie.posterPath}
+                    size="w200"
                     alt={movie.title}
                     style={{ width: "100%", height: "100%", objectFit: "cover" }}
                     crossOrigin="anonymous"
@@ -314,8 +316,9 @@ export default function ResultsPage() {
                   onClick={(e) => e.stopPropagation()}
                 >
                   {movie.posterPath ? (
-                    <img
-                      src={`https://image.tmdb.org/t/p/w300${movie.posterPath}`}
+                    <TmdbImage
+                      path={movie.posterPath}
+                      size="w300"
                       alt={movie.title}
                       className="h-full w-full object-cover"
                     />
