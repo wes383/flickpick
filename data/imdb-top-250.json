@@ -145,7 +145,7 @@
   },
   {
     "title": "The Green Mile",
-    "year": null,
+    "year": 1999,
     "rank": 25,
     "tmdb_id": 497
   },
@@ -222,16 +222,16 @@
     "tmdb_id": 539
   },
   {
-    "title": "The Lion King",
-    "year": 1994,
-    "rank": 38,
-    "tmdb_id": 8587
-  },
-  {
     "title": "Harakiri",
     "year": 1962,
-    "rank": 39,
+    "rank": 38,
     "tmdb_id": 14537
+  },
+  {
+    "title": "The Lion King",
+    "year": 1994,
+    "rank": 39,
+    "tmdb_id": 8587
   },
   {
     "title": "The Departed",
@@ -348,16 +348,16 @@
     "tmdb_id": 77
   },
   {
-    "title": "Dune: Part Two",
-    "year": 2024,
-    "rank": 59,
-    "tmdb_id": 693134
-  },
-  {
     "title": "Avengers: Infinity War",
     "year": 2018,
-    "rank": 60,
+    "rank": 59,
     "tmdb_id": 299536
+  },
+  {
+    "title": "Dune: Part Two",
+    "year": 2024,
+    "rank": 60,
+    "tmdb_id": 693134
   },
   {
     "title": "Raiders of the Lost Ark",
@@ -456,16 +456,16 @@
     "tmdb_id": 354912
   },
   {
-    "title": "Amadeus",
-    "year": 1984,
-    "rank": 77,
-    "tmdb_id": 279
-  },
-  {
     "title": "Toy Story",
     "year": 1995,
-    "rank": 78,
+    "rank": 77,
     "tmdb_id": 862
+  },
+  {
+    "title": "Amadeus",
+    "year": 1984,
+    "rank": 78,
+    "tmdb_id": 279
   },
   {
     "title": "Your Name.",
@@ -528,16 +528,16 @@
     "tmdb_id": 872
   },
   {
-    "title": "Joker",
-    "year": 2019,
-    "rank": 89,
-    "tmdb_id": 475557
-  },
-  {
     "title": "Once Upon a Time in America",
     "year": 1984,
-    "rank": 90,
+    "rank": 89,
     "tmdb_id": 311
+  },
+  {
+    "title": "Joker",
+    "year": 2019,
+    "rank": 90,
+    "tmdb_id": 475557
   },
   {
     "title": "Toy Story 3",
@@ -619,7 +619,7 @@
   },
   {
     "title": "2001: A Space Odyssey",
-    "year": 1968,
+    "year": 2001,
     "rank": 104,
     "tmdb_id": 62
   },
@@ -636,16 +636,16 @@
     "tmdb_id": 996
   },
   {
-    "title": "North by Northwest",
-    "year": 1959,
-    "rank": 107,
-    "tmdb_id": 213
-  },
-  {
     "title": "Like Stars on Earth",
     "year": 2007,
-    "rank": 108,
+    "rank": 107,
     "tmdb_id": 7508
+  },
+  {
+    "title": "North by Northwest",
+    "year": 1959,
+    "rank": 108,
+    "tmdb_id": 213
   },
   {
     "title": "Full Metal Jacket",
@@ -714,70 +714,70 @@
     "tmdb_id": 1317149
   },
   {
+    "title": "Attack on Titan: The Last Attack",
+    "year": 2024,
+    "rank": 120,
+    "tmdb_id": 1333100
+  },
+  {
     "title": "A Clockwork Orange",
     "year": 1971,
-    "rank": 120,
+    "rank": 121,
     "tmdb_id": 185
   },
   {
     "title": "Metropolis",
     "year": 1927,
-    "rank": 121,
+    "rank": 122,
     "tmdb_id": 19
   },
   {
     "title": "1917",
     "year": 1917,
-    "rank": 122,
+    "rank": 123,
     "tmdb_id": 530915
   },
   {
     "title": "Snatch",
     "year": 2000,
-    "rank": 123,
+    "rank": 124,
     "tmdb_id": 107
   },
   {
     "title": "The Wolf of Wall Street",
     "year": 2013,
-    "rank": 124,
+    "rank": 125,
     "tmdb_id": 106646
   },
   {
     "title": "The Truman Show",
     "year": 1998,
-    "rank": 125,
+    "rank": 126,
     "tmdb_id": 37165
   },
   {
     "title": "Downfall",
     "year": 2004,
-    "rank": 126,
+    "rank": 127,
     "tmdb_id": 613
   },
   {
     "title": "L.A. Confidential",
     "year": 1997,
-    "rank": 127,
+    "rank": 128,
     "tmdb_id": 2118
   },
   {
     "title": "Dangal",
     "year": 2016,
-    "rank": 128,
+    "rank": 129,
     "tmdb_id": 360814
   },
   {
     "title": "Shutter Island",
     "year": 2010,
-    "rank": 129,
-    "tmdb_id": 11324
-  },
-  {
-    "title": "Bicycle Thieves",
-    "year": 1948,
     "rank": 130,
-    "tmdb_id": 5156
+    "tmdb_id": 11324
   },
   {
     "title": "Green Book",
@@ -786,10 +786,10 @@
     "tmdb_id": 490132
   },
   {
-    "title": "Attack on Titan: The Last Attack",
-    "year": 2024,
+    "title": "Bicycle Thieves",
+    "year": 1948,
     "rank": 132,
-    "tmdb_id": 1333100
+    "tmdb_id": 5156
   },
   {
     "title": "Oppenheimer",
@@ -816,56 +816,56 @@
     "tmdb_id": 329
   },
   {
-    "title": "Project Hail Mary",
-    "year": 2026,
-    "rank": 137,
-    "tmdb_id": 687163
-  },
-  {
     "title": "For a Few Dollars More",
     "year": 1965,
-    "rank": 138,
+    "rank": 137,
     "tmdb_id": 938
   },
   {
     "title": "Hamilton",
     "year": 2020,
-    "rank": 139,
+    "rank": 138,
     "tmdb_id": 556574
   },
   {
     "title": "Taxi Driver",
     "year": 1976,
-    "rank": 140,
+    "rank": 139,
     "tmdb_id": 103
   },
   {
     "title": "Some Like It Hot",
     "year": 1959,
-    "rank": 141,
+    "rank": 140,
     "tmdb_id": 239
   },
   {
     "title": "There Will Be Blood",
     "year": 2007,
-    "rank": 142,
+    "rank": 141,
     "tmdb_id": 7345
   },
   {
     "title": "The Father",
     "year": 2020,
-    "rank": 143,
+    "rank": 142,
     "tmdb_id": 600354
   },
   {
     "title": "The Kid",
     "year": 1921,
-    "rank": 144,
+    "rank": 143,
     "tmdb_id": 10098
   },
   {
+    "title": "Project Hail Mary",
+    "year": 2026,
+    "rank": 144,
+    "tmdb_id": 687163
+  },
+  {
     "title": "All About Eve",
-    "year": null,
+    "year": 1950,
     "rank": 145,
     "tmdb_id": 705
   },
@@ -918,16 +918,16 @@
     "tmdb_id": 24
   },
   {
-    "title": "Pan's Labyrinth",
-    "year": 2006,
-    "rank": 154,
-    "tmdb_id": 1417
-  },
-  {
     "title": "Unforgiven",
     "year": 1992,
-    "rank": 155,
+    "rank": 154,
     "tmdb_id": 33
+  },
+  {
+    "title": "Pan's Labyrinth",
+    "year": 2006,
+    "rank": 155,
+    "tmdb_id": 1417
   },
   {
     "title": "A Beautiful Mind",
@@ -1026,16 +1026,16 @@
     "tmdb_id": 11659
   },
   {
-    "title": "V for Vendetta",
-    "year": 2005,
-    "rank": 172,
-    "tmdb_id": 752
-  },
-  {
     "title": "Catch Me If You Can",
     "year": 2002,
-    "rank": 173,
+    "rank": 172,
     "tmdb_id": 640
+  },
+  {
+    "title": "V for Vendetta",
+    "year": 2005,
+    "rank": 173,
+    "tmdb_id": 752
   },
   {
     "title": "Inside Out",
@@ -1050,34 +1050,34 @@
     "tmdb_id": 627
   },
   {
+    "title": "Dead Poets Society",
+    "year": 1989,
+    "rank": 176,
+    "tmdb_id": 207
+  },
+  {
     "title": "Three Billboards Outside Ebbing, Missouri",
     "year": 2017,
-    "rank": 176,
+    "rank": 177,
     "tmdb_id": 359940
   },
   {
     "title": "Rashomon",
     "year": 1950,
-    "rank": 177,
-    "tmdb_id": 548
-  },
-  {
-    "title": "Dead Poets Society",
-    "year": 1989,
     "rank": 178,
-    "tmdb_id": 207
-  },
-  {
-    "title": "The Bridge on the River Kwai",
-    "year": 1957,
-    "rank": 179,
-    "tmdb_id": 826
+    "tmdb_id": 548
   },
   {
     "title": "Harry Potter and the Deathly Hallows: Part 2",
     "year": 2011,
-    "rank": 180,
+    "rank": 179,
     "tmdb_id": 12445
+  },
+  {
+    "title": "The Bridge on the River Kwai",
+    "year": 1957,
+    "rank": 180,
+    "tmdb_id": 826
   },
   {
     "title": "The Wild Robot",
@@ -1116,16 +1116,16 @@
     "tmdb_id": 324786
   },
   {
-    "title": "Million Dollar Baby",
-    "year": 2004,
-    "rank": 187,
-    "tmdb_id": 70
-  },
-  {
     "title": "Mad Max: Fury Road",
     "year": 2015,
-    "rank": 188,
+    "rank": 187,
     "tmdb_id": 76341
+  },
+  {
+    "title": "Million Dollar Baby",
+    "year": 2004,
+    "rank": 188,
+    "tmdb_id": 70
   },
   {
     "title": "Children of Heaven",
@@ -1134,22 +1134,22 @@
     "tmdb_id": 21334
   },
   {
+    "title": "Ratatouille",
+    "year": 2007,
+    "rank": 190,
+    "tmdb_id": 2062
+  },
+  {
     "title": "My Neighbor Totoro",
     "year": 1988,
-    "rank": 190,
+    "rank": 191,
     "tmdb_id": 8392
   },
   {
     "title": "Raging Bull",
     "year": 1980,
-    "rank": 191,
-    "tmdb_id": 1578
-  },
-  {
-    "title": "Ratatouille",
-    "year": 2007,
     "rank": 192,
-    "tmdb_id": 2062
+    "tmdb_id": 1578
   },
   {
     "title": "Gran Torino",
@@ -1254,52 +1254,52 @@
     "tmdb_id": 24238
   },
   {
-    "title": "The Chaos Class Failed the Class",
-    "year": 1975,
-    "rank": 210,
-    "tmdb_id": 31534
-  },
-  {
     "title": "The Deer Hunter",
     "year": 1978,
-    "rank": 211,
+    "rank": 210,
     "tmdb_id": 11778
   },
   {
     "title": "The Wages of Fear",
     "year": 1953,
-    "rank": 212,
+    "rank": 211,
     "tmdb_id": 204
+  },
+  {
+    "title": "Chainsaw Man - The Movie: Reze Arc",
+    "year": 2025,
+    "rank": 212,
+    "tmdb_id": 1218925
+  },
+  {
+    "title": "A Silent Voice: The Movie",
+    "year": 2016,
+    "rank": 213,
+    "tmdb_id": 378064
   },
   {
     "title": "The General",
     "year": 1926,
-    "rank": 213,
+    "rank": 214,
     "tmdb_id": 961
   },
   {
     "title": "Logan",
     "year": 2017,
-    "rank": 214,
+    "rank": 215,
     "tmdb_id": 263115
   },
   {
     "title": "Rocky",
     "year": 1976,
-    "rank": 215,
+    "rank": 216,
     "tmdb_id": 1366
   },
   {
-    "title": "A Silent Voice: The Movie",
-    "year": 2016,
-    "rank": 216,
-    "tmdb_id": 378064
-  },
-  {
-    "title": "Chainsaw Man - The Movie: Reze Arc",
-    "year": 2025,
+    "title": "The Chaos Class Failed the Class",
+    "year": 1975,
     "rank": 217,
-    "tmdb_id": 1218925
+    "tmdb_id": 31534
   },
   {
     "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
@@ -1344,40 +1344,40 @@
     "tmdb_id": 15121
   },
   {
-    "title": "Wild Strawberries",
-    "year": 1957,
-    "rank": 225,
-    "tmdb_id": 614
-  },
-  {
     "title": "Jai Bhim",
     "year": 2021,
-    "rank": 226,
+    "rank": 225,
     "tmdb_id": 855400
   },
   {
-    "title": "The Terminator",
-    "year": 1984,
-    "rank": 227,
-    "tmdb_id": 218
+    "title": "Wild Strawberries",
+    "year": 1957,
+    "rank": 226,
+    "tmdb_id": 614
   },
   {
     "title": "Maharaja",
     "year": 2024,
-    "rank": 228,
+    "rank": 227,
     "tmdb_id": 1118224
   },
   {
-    "title": "The Third Man",
-    "year": 1949,
-    "rank": 229,
-    "tmdb_id": 1092
+    "title": "The Terminator",
+    "year": 1984,
+    "rank": 228,
+    "tmdb_id": 218
   },
   {
     "title": "The Best Years of Our Lives",
     "year": 1946,
-    "rank": 230,
+    "rank": 229,
     "tmdb_id": 887
+  },
+  {
+    "title": "The Third Man",
+    "year": 1949,
+    "rank": 230,
+    "tmdb_id": 1092
   },
   {
     "title": "The Big Lebowski",
@@ -1446,16 +1446,16 @@
     "tmdb_id": 96721
   },
   {
-    "title": "The Wizard of Oz",
-    "year": 1939,
-    "rank": 242,
-    "tmdb_id": 630
-  },
-  {
     "title": "Stand by Me",
     "year": 1986,
-    "rank": 243,
+    "rank": 242,
     "tmdb_id": 235
+  },
+  {
+    "title": "The Wizard of Oz",
+    "year": 1939,
+    "rank": 243,
+    "tmdb_id": 630
   },
   {
     "title": "The Battle of Algiers",
@@ -1476,27 +1476,27 @@
     "tmdb_id": 780
   },
   {
-    "title": "Obsession",
-    "year": 2025,
-    "rank": 247,
-    "tmdb_id": 1339713
-  },
-  {
     "title": "The Handmaiden",
     "year": 2016,
-    "rank": 248,
+    "rank": 247,
     "tmdb_id": 290098
   },
   {
     "title": "Drishyam",
     "year": 2013,
-    "rank": 249,
+    "rank": 248,
     "tmdb_id": 244049
   },
   {
-    "title": "96",
-    "year": 2018,
+    "title": "Gangs of Wasseypur",
+    "year": 2012,
+    "rank": 249,
+    "tmdb_id": 117691
+  },
+  {
+    "title": "Autumn Sonata",
+    "year": 1978,
     "rank": 250,
-    "tmdb_id": 441717
+    "tmdb_id": 12761
   }
 ]
